@@ -4,7 +4,7 @@
         <name>LoL Languages</name>
         <description>Languages from the D&amp;D5e League of Legends Campaign Handbook</description>
         <update version="0.0.1">
-            <file name="lol-languages.xml" url="" />
+            <file name="lol-languages.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-languages.xml" />
         </update>
     </info>
     <element name="Demacian" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_DEMACIAN">

@@ -3,7 +3,7 @@
     <info>
         <name>Celestial</name>
         <update version="0.0.1">
-            <file name="race-Celestial.xml" url="" />
+            <file name="race-Celestial.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-race-celestial.xml" />
         </update>
     </info>
     <element name="Celestial" type="Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACE_CELESTIAL">

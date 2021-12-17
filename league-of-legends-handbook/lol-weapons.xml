@@ -4,7 +4,7 @@
         <name>LoL Weapons</name>
         <description>Weapons from the League of Legends Handbook</description>
         <update version="0.0.1">
-            <file name="lol-weapons.xml" url="" />
+            <file name="lol-weapons.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-weapons.xml" />
         </update>
     </info>
     <element name="Kunai" type="Weapon" source="League of Legends Handbook" id="ID_LOLHB_WEAPON_KUNAI">

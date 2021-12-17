@@ -3,7 +3,7 @@
     <info>
         <name>Ascended</name>
         <update version="0.0.1">
-            <file name="race-Ascended.xml" url="" />
+            <file name="race-Ascended.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-race-ascended.xml" />
         </update>
     </info>
     <element name="Ascended" type="Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACE_ASCENDED">

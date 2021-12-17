@@ -4,7 +4,7 @@
         <name>LoL Feats</name>
         <description>Feats from the League of Legends Handbook</description>
         <update version="0.0.1">
-            <file name="lol-feats.xml" url="" />
+            <file name="lol-feats.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-feats.xml" />
         </update>
     </info>
     <element name="Desert Terrain Familiarity" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_DESERT_TERRAIN_FAMILIARITY">

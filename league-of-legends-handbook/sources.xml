@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="sources.xml" url="" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/sources.xml" />
 		</update>
 	</info>
 	<element name="League of Legends Handbook" type="Source" source="Third Party" id="ID_ORKIDIAN_SOURCE_LOLHB">

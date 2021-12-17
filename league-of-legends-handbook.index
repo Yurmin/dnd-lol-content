@@ -5,18 +5,22 @@
 		<description>This is a fan-made handbook. detailing a League of Legends campaign setting for play in Dungeons &amp; Dragons Fifth Edition.</description>
 		<author url="https://www.gmbinder.com/share/-MAA83ZvYm1tTpNzAUfA/-Mae69i55ADzjI_i0aB6">Orkidian</author>
 		<update version="0.1">
-			<file name="league-of-legends-handbook.index" url="" />
+			<file name="league-of-legends-handbook.index" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook.index" />
 		</update>
 	</info>
 	<files>
-		<file name="sources.xml" url="" />
+		<file name="sources.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/sources.xml" />
 
 		<!-- races -->
-		<file name="lol-race-ascended.xml" url="" />
+		<file name="lol-race-ascended.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-race-ascended.xml" />
+		<file name="lol-race-celestial.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-race-celestial.xml" />
+		<file name="lol-race-golem.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-race-golem.xml" />
+		<file name="lol-race-spirit.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-spirit.xml" />
 
 		<!-- misc -->
-		<file name="lol-languages.xml" url="" />
-		<file name="lol-feats.xml" url="" />
+		<file name="lol-languages.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-languages.xml" />
+		<file name="lol-feats.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-feats.xml" />
+		<file name="lol-weapons.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-weapons.xml" />
 		
 
 	</files>

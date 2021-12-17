@@ -270,6 +270,8 @@ flavor="Coming from nearly all major lands and inhabiting all walks of life, hum
     ("Subraces", "The humans of Runeterra can be assorted by regional lines. Each region grants a character different traits. See below and choose one such region from which you hail. Or, the Dungeon Master might work with you to combine regions and traits, creating dual heritage."),
 ], subraceDescription="The humans of Runeterra can be assorted by regional lines. Each region grants a character different traits. See below and choose one such region from which you hail. Or, the Dungeon Master might work with you to combine regions and traits, creating dual heritage.",
 
+### Human subraces
+
 #### Bilgewater
 
 In the southeastern reaches of Runeterra lie the Serpent Isles, encompassing the port city of Bilgewater and indigenous island cultures. The Bilgewater area is notorious for its lawlessness, piracy, gambling, and trading. The chaos of Bilgewater often leads its people to seek fame and fortune—but they must be prepared to brave the deadly waters and even deadlier rivals.

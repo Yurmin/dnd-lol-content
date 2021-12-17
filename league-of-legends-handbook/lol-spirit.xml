@@ -3,7 +3,7 @@
     <info>
         <name>Spirit</name>
         <update version="0.0.1">
-            <file name="race-Spirit.xml" url="" />
+            <file name="race-Spirit.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-spirit.xml" />
         </update>
     </info>
     <element name="Spirit" type="Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACE_SPIRIT">
