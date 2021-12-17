@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>Celestial</name>
+        <update version="0.0.1">
+            <file name="race-Celestial.xml" url="" />
+        </update>
+    </info>
+    <element name="Celestial" type="Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACE_CELESTIAL">
+        <description>
+            <p class="flavor">Old as the universe and just as powerful, Celestials cross the boundaries of mortal possibility. With vast ranges of abilities, such as the power of creation, healing, or omniscience, Celestials demonstrate great providence over the physical realm. However, most Celestials are inhuman, bordering on eldritch in appearance, utterly disconnected from the mortals they ostensibly oversee. While most Celestials choose to remain in the Celestial Realm, content in their incomprehensibility, a select few decide to descend into the mortal realm. But these Celestials almost never come in their pure, godlike forms. Instead, they typically sacrifice some condition of their sublimity in order to better interact with mortals. Or, they may even imbue their essence within mortals, merging with someone worthy and willing.</p>
+            <h4>Hands of Fate</h4>
+            <p>Celestials are the weavers of destiny, with the power to guide fate toward its course. From the domain of the Celestial Realm, fully-powered Celestials exercise the breadth of their influence. Celestials, knowledgable in the different threads of fate, aim their efforts in preserving the multiverse's longevity. This might be interpreted as goodness or benevolence, but it is perhaps more accurate to acknowledge Celestial actions as being beyond mortal grasp. Indeed, some Celestials pursue more ambivalent strands and developments, such as creating change for change's sake.</p>
+            <h4>Aspects and Visionaries</h4>
+            <p>A specific type of Celestial exists, residing and originating in a plane called Targon Prime, known as Aspects. The Aspects personify a concept, such as war, justice, or change. These concepts evolve through mortal affairs. At times that necessitate widespread transformation, or if a mortal proves themselves worthy in the ritual of Ascension, an Aspect comes down and merges with a mortal. In this form, an Aspect can be destroyed by a being of equal power, or the Aspect may choose a different mortal host.</p>
+            <h4>Humanity's Guardians</h4>
+            <p>Some mortal faiths are based in the worship of Celestials. But most followers have not born witness to an actual Celestial, nor have they seen their direct influence. Nonetheless, Celestials may take a hands-on or hands-off approach to helping humans. Stories around Mount Targon spread of a Celestial who sacrificed her immortal, animalistic form and exchanged it for corporeality—embracing all the weaknesses of humanity to better serve them. For all the cruelty of mortals, it seems there are entities dedicated to saving them.</p>
+            <h4>Stellar Influence</h4>
+            <p>Celestial agency takes different forms. The mythos of the creation of the Ascended claims that Celestials made them as weapons against the Void's corruption. Another type of Celestial exists, called Celestial dragons. These beings manipulate the stars and suns themselves. These dragons may explain the existence of celestial bodies and universes as creations by a higher being. In either case, Celestial power seems tied to the stars, and thus Celestials have appointed themselves as the guardians of all that the stars cover.</p>
+            <h4>Celestial names</h4>
+            <p>Celestial names are based in the language of Celestials. Names are oft derived from the names of celestial bodies, heavenly, grandiose, and carrying much weight. Due to their unearthly forms, names are not typically gendered.</p>
+            <p>
+                <span class="feature">Celestial Names:</span>
+                Aktia Sial, Dusara, Fyrses, Govias Ma, Ildos, Lynir, Muockthos, Nydis, Phaara Nayin, Ulone, Vophin Sey, Xeytzin, Zeleraka
+                <br />
+            </p>
+            <h4>Celestial traits</h4>
+            <p>Your Celestial character has the following traits:</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase</em>
+                </strong>
+                Your Wisdom score increases by 2, and your Charisma score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Age</em>
+                </strong>
+                Celestials are ageless creatures. However, by coming to the physical realm, they make themselves vulnerable; they can be destroyed through war, subjugation, or bloodshed.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Alignment</em>
+                </strong>
+                With an eye for the continuation and preservation of fate, Celestials tend toward lawful and/or good.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Size</em>
+                </strong>
+                By descending from the Celestial Realm, most Celestials appear similar in build to mortals. Your size is Medium.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Speed</em>
+                </strong>
+                Your base walking speed is 30 feet.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Celestial Knowledge</em>
+                </strong>
+                You have proficiency in the History and Religion skills.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Radiant-Born</em>
+                </strong>
+                As a being created from the stars and heavens, you have immunity to radiant damage.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Sacrificial Healing</em>
+                </strong>
+                As a bonus action, you can take from your own health pool to heal a willing creature you can see, so long as doing so will not make you fall unconscious. Roll 1d4, and you can choose to add your Wisdom modifier to the roll. You lose that amount of hit points, but your chosen ally gains them. After using this feature, you cannot use it again until you complete a short or long rest. This dice changes when you reach certain levels. The die becomes 1d6 at 5th level, a 1d8 at 10th level, and a 1d10 at 15th level.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Sacrificial Shielding</em>
+                </strong>
+                When a creature you can see takes damage, you can use your reaction to redirect half of the damage to yourself. After using this feature, you cannot use it again until you complete a short or long rest.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Languages</em>
+                </strong>
+                You can speak, read, and write Va-Nox and Celestial. The language of Celestials sounds melodic, but it features sounds and grammatical patterns that are incomprehensible to mortal understanding.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names-format">{{name}}</set>
+            <set name="height" modifier="2d10">4'8"</set>
+            <set name="weight" modifier="2d4">110 lb</set>
+        </setters>
+        <rules>
+            <stat name="wisdom" value="2" requirements="!ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            <stat name="charisma" value="1" requirements="!ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_VANOX" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_CELESTIAL_KNOWLEDGE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_RADIANT-BORN" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SACRIFICIAL_HEALING" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SACRIFICIAL_SHIELDING" />
+            <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_CELESTIAL" />
+        </rules>
+    </element>
+    <element name="Celestial Knowledge" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_CELESTIAL_KNOWLEDGE">
+        <description>
+            <p>You have proficiency in the History and Religion skills.</p>
+        </description>
+        <sheet>
+            <description>You have proficiency in the History and Religion skills.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+        </rules>
+    </element>
+    <element name="Radiant-Born" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_RADIANT-BORN">
+        <description>
+            <p>As a being created from the stars and heavens, you have immunity to radiant damage.</p>
+        </description>
+        <sheet>
+            <description>As a being created from the stars and heavens, you have immunity to radiant damage.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+        </rules>
+    </element>
+    <element name="Sacrificial Healing" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SACRIFICIAL_HEALING">
+        <description>
+            <p>As a bonus action, you can take from your own health pool to heal a willing creature you can see, so long as doing so will not make you fall unconscious. Roll 1d4, and you can choose to add your Wisdom modifier to the roll. You lose that amount of hit points, but your chosen ally gains them. After using this feature, you cannot use it again until you complete a short or long rest. This dice changes when you reach certain levels. The die becomes 1d6 at 5th level, a 1d8 at 10th level, and a 1d10 at 15th level.</p>
+        </description>
+        <sheet>
+            <description>As a bonus action, you can take from your own health pool to heal a willing creature you can see, so long as doing so will not make you fall unconscious. Roll 1d4, and you can choose to add your Wisdom modifier to the roll. You lose that amount of hit points, but your chosen ally gains them. After using this feature, you cannot use it again until you complete a short or long rest. This dice changes when you reach certain levels. The die becomes 1d6 at 5th level, a 1d8 at 10th level, and a 1d10 at 15th level.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Sacrificial Shielding" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SACRIFICIAL_SHIELDING">
+        <description>
+            <p>When a creature you can see takes damage, you can use your reaction to redirect half of the damage to yourself. After using this feature, you cannot use it again until you complete a short or long rest.</p>
+        </description>
+        <sheet>
+            <description>When a creature you can see takes damage, you can use your reaction to redirect half of the damage to yourself. After using this feature, you cannot use it again until you complete a short or long rest.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+</elements>

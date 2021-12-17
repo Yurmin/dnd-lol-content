@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>LoL Weapons</name>
+        <description>Weapons from the League of Legends Handbook</description>
+        <update version="0.0.1">
+            <file name="lol-weapons.xml" url="" />
+        </update>
+    </info>
+    <element name="Kunai" type="Weapon" source="League of Legends Handbook" id="ID_LOLHB_WEAPON_KUNAI">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="sp">1</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">20/60</set>
+            <set name="damage" type="piercing">1d4</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KUNAI</set>
+        </setters>
+    </element>
+    <element name="Shuriken" type="Weapon" source="League of Legends Handbook" id="ID_LOLHB_WEAPON_SHURIKEN">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="cp">5</set>
+            <set name="weight" lb="0.5">0.5 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">20/60</set>
+            <set name="damage" type="piercing">1d4</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHURIKEN</set>
+        </setters>
+    </element>
+    <element name="Chakram" type="Weapon" source="League of Legends Handbook" id="ID_LOLHB_WEAPON_CHAKRAM">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="sp">1</set>
+            <set name="weight" lb="0.5">0.5 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">20/60</set>
+            <set name="damage" type="slashing">1d4</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CHAKRAM</set>
+        </setters>
+    </element>
+    <element name="Dao" type="Weapon" source="League of Legends Handbook" id="ID_LOLHB_WEAPON_DAO">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">10</set>
+            <set name="weight" lb="4">2 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="slashing">1d8</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAO</set>
+        </setters>
+    </element>
+    <element name="Jian" type="Weapon" source="League of Legends Handbook" id="ID_LOLHB_WEAPON_JIAN">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">10</set>
+            <set name="weight" lb="4">4 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="slashing">1d8</set>
+            <set name="versatile">1d10</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE</set>
+        </setters>
+    </element>
+    <element name="Kama" type="Weapon" source="League of Legends Handbook" id="ID_LOLHB_WEAPON_KAMA">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">1</set>
+            <set name="weight" lb="2">2 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="slashing">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KAMA</set>
+        </setters>
+    </element>
+	<element name="Daikyu" type="Weapon" source="Player’s Handbook" id="ID_LOLHB_WEAPON_DAIKYU">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">30</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">150/600</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAIKYU</set>
+		</setters>
+	</element>
+</elements>

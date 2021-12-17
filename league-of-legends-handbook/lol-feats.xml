@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>LoL Feats</name>
+        <description>Feats from the League of Legends Handbook</description>
+        <update version="0.0.1">
+            <file name="lol-feats.xml" url="" />
+        </update>
+    </info>
+    <element name="Desert Terrain Familiarity" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_DESERT_TERRAIN_FAMILIARITY">
+        <description>
+            <p>When traveling in desert terrain, you gain advantage on Wisdom (Survival) checks, and you are not hindered by difficult terrain.</p>
+        </description>
+        <sheet>
+            <description>When traveling in desert terrain, you gain advantage on Wisdom (Survival) checks, and you are not hindered by difficult terrain.</description>
+        </sheet>
+    </element>
+    <element name="Mountainous Terrain Familiarity" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_MOUNTAINOUS_TERRAIN_FAMILIARITY">
+        <description>
+            <p>When traveling in mountainous terrain, you gain advantage on Wisdom (Survival) checks, and you are not hindered by difficult terrain.</p>
+        </description>
+        <sheet>
+            <description>When traveling in mountainous terrain, you gain advantage on Wisdom (Survival) checks, and you are not hindered by difficult terrain.</description>
+        </sheet>
+    </element>
+    <element name="Arctic Terrain Familiarity" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_ARCTIC_TERRAIN_FAMILIARITY">
+        <description>
+            <p>When traveling in arctic terrain, you gain advantage on Wisdom (Survival) checks, and you are not hindered by difficult terrain.</p>
+        </description>
+        <sheet>
+            <description>When traveling in arctic terrain, you gain advantage on Wisdom (Survival) checks, and you are not hindered by difficult terrain.</description>
+        </sheet>
+    </element>
+    <element name="Jungle Terrain Familiarity" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_JUNGLE_TERRAIN_FAMILIARITY">
+        <description>
+            <p>When traveling in jungle terrain, you gain advantage on the following skill checks, related to navigating, traversing, or examining the terrain: Intelligence (Investigation, Nature); Wisdom (Perception, Survival).</p>
+        </description>
+        <sheet>
+            <description>When traveling in jungle terrain, you gain advantage on the following skill checks, related to navigating, traversing, or examining the terrain: Intelligence (Investigation, Nature); Wisdom (Perception, Survival).</description>
+        </sheet>
+    </element>
+    <element name="Swamp Terrain Familiarity" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_SWAMP_TERRAIN_FAMILIARITY">
+        <description>
+            <p>When traveling in swamp terrain, you gain advantage on the following skill checks, related to navigating, traversing, or examining the terrain: Intelligence (Investigation, Nature); Wisdom (Perception, Survival).</p>
+        </description>
+        <sheet>
+            <description>When traveling in swamp terrain, you gain advantage on the following skill checks, related to navigating, traversing, or examining the terrain: Intelligence (Investigation, Nature); Wisdom (Perception, Survival).</description>
+        </sheet>
+    </element>
+    <element name="Elemental Strike" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_ELEMENTAL_STRIKE">
+        <description>
+            <p>You have learned to harness elemental energy and channel it into your melee attacks. Choose one of the following damage types; acid, cold, fire, or lightning. Once per round when you hit with a melee attack, you can choose to channel that element into the strike, dealing an additional 1d6 damage of the chosen type. This additional damage increases to 2d6 at 6th level, 3d6 at 11th level, and 4d6 at 16th level.</p>
+            <p>Once used, roll a d6 at the start of your turn. On a roll of 5 or 6, you regain use of this ability.</p>
+        </description>
+        <sheet>
+            <description>
+                <p>You have learned to harness elemental energy and channel it into your melee attacks. Choose one of the following damage types; acid, cold, fire, or lightning. Once per round when you hit with a melee attack, you can choose to channel that element into the strike, dealing an additional 1d6 damage of the chosen type. This additional damage increases to 2d6 at 6th level, 3d6 at 11th level, and 4d6 at 16th level.</p>
+                <p>Once used, roll a d6 at the start of your turn. On a roll of 5 or 6, you regain use of this ability.</p>
+            </description>
+        </sheet>
+    </element>
+    <element name="Sunstrike" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_SUNSTRIKE">
+        <description>
+            <p>You can channel the power of the sun into your attacks. When you roll damage, you can deal an additional 1d6 radiant damage. This additional damage increases to 2d6 at 6th level, 3d6 at 11th level, and 4d6 at 16th level. You can’t use this feature again until you finish a short rest.</p>
+        </description>
+        <sheet>
+            <description>
+                <p>You can channel the power of the sun into your attacks. When you roll damage, you can deal an additional 1d6 radiant damage. This additional damage increases to 2d6 at 6th level, 3d6 at 11th level, and 4d6 at 16th level. You can’t use this feature again until you finish a short rest.</p>
+            </description>
+        </sheet>
+    </element>
+    <element name="Battle Tactician" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_BATTLE_TACTICIAN">
+        <description>
+            <p>
+                You are smart and savvy in the art of war, gaining the following benefits:
+                <ul>
+                    <li>You gain a +5 bonus to initiative.</li>
+                    <li>
+                        At the start of an encounter, you can choose to do one of the following:
+                        <ul>
+                            <li>Swap your own initiative roll with one hostile creature.</li>
+                            <li>Swap the initiative rolls of two of your allies.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+        </description>
+        <sheet>
+            <description>
+                <p>
+                    You are smart and savvy in the art of war, gaining the following benefits:
+                    <ul>
+                        <li>You gain a +5 bonus to initiative.</li>
+                        <li>
+                            At the start of an encounter, you can choose to do one of the following:
+                            <ul>
+                                <li>Swap your own initiative roll with one hostile creature.</li>
+                                <li>Swap the initiative rolls of two of your allies.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
+            </description>
+        </sheet>
+    </element>
+    <element name="Blessing of the Sundisk" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_SUNDISK_BLESSING">
+        <description>
+            <p>The transformation has gifted you with a unique ability based on the studies and nature of your life as a human. Select one from the list below or work with the DM to craft a blessing of similar power:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Blessing</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ascended Fury</td>
+                        <td>When successfully landing an attack that deals bludgeoning, piercing, or slashing damage, you can channel Ascended Fury to cause that attack to deal another 1d6 + STR damage. After using this blessing, you can't use it again until you complete a long rest. This damage die changes when you reach certain levels. The die becomes 1d10 at 5th level, a 1d12 at 10th level, and a 2d12 at 15th level.</td>
+                    </tr>
+                    <tr>
+                        <td>Ghost of the Soldier</td>
+                        <td>
+                            As a bonus action, you can conjure a Sand Soldier within 15 feet of you and in an empty space with 5 feet on all sides.
+                            <ul>
+                                <li>It can make a melee spear attack for 1d6 + DEX. This damage die changes when you reach certain levels. The die becomes 2d10 at 5th level, a 2d12 at 10th level, and a 3d12 at 15th level.</li>
+                                <li>Your movement can be used to move the soldier.</li>
+                                <li>The soldier cannot perceive anything.</li>
+                                <li>The soldier has hit points equal to 1d6 + CHA. </li>
+                                <li>The soldier dissolves after 1 minute or if you are not within 15 feet of it. After using this blessing, you can't use it again until you complete a long rest.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Life Siphon</td>
+                        <td>As an action, roll 1d6 + CHA against a creature you can see. You take this amount of hit points away from the target and add it to your own. The target may make a DC 13 CON saving throw to resist, losing half the amount of hit points on a successful save. This has no effect on Constructs or Undead. After using this blessing, you can't use it again until you complete a long rest. This damage die changes when you reach certain levels. The die becomes 1d10 at 5th level, a 2d12 at 10th level, and a 3d12 at 15th level.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Feat Feature" name="Blessing of the Sundisk (Feat)" supports="Blessing of the Sundisk" />
+        </rules>
+    </element>
+    <element name="Blessing of the Sundisk (Ascended Fury)" type="Feat Feature" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_SUNDISK_BLESSING_ASCENDED_FURY">
+        <compendium display="false" />
+        <supports>Blessing of the Sundisk</supports>
+        <description>
+            <p>When successfully landing an attack that deals bludgeoning, piercing, or slashing damage, you can channel Ascended Fury to cause that attack to deal another 1d6 + STR damage. After using this blessing, you can't use it again until you complete a long rest.</p>
+            <p>This damage die changes when you reach certain levels. The die becomes 1d10 at 5th level, a 1d12 at 10th level, and a 2d12 at 15th level.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Blessing of the Sundisk (Ghost of the Soldier)" type="Feat Feature" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_SUNDISK_BLESSING_GHOST_OF_THE_SOLDIER">
+        <compendium display="false" />
+        <supports>Blessing of the Sundisk</supports>
+        <description>
+            <p>
+                As a bonus action, you can conjure a Sand Soldier within 15 feet of you and in an empty space with 5 feet on all sides.
+                <ul>
+                    <li>It can make a melee spear attack for 1d6 + DEX. This damage die changes when you reach certain levels. The die becomes 2d10 at 5th level, a 2d12 at 10th level, and a 3d12 at 15th level.</li>
+                    <li>Your movement can be used to move the soldier.</li>
+                    <li>The soldier cannot perceive anything.</li>
+                    <li>The soldier has hit points equal to 1d6 + CHA. </li>
+                    <li>The soldier dissolves after 1 minute or if you are not within 15 feet of it. After using this blessing, you can't use it again until you complete a long rest.</li>
+                </ul>
+            </p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Blessing of the Sundisk (Life Siphon)" type="Feat Feature" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_SUNDISK_BLESSING_LIFE_SIPHON">
+        <compendium display="false" />
+        <supports>Blessing of the Sundisk</supports>
+        <description>
+            <p>As an action, roll 1d6 + CHA against a creature you can see. You take this amount of hit points away from the target and add it to your own. The target may make a DC 13 CON saving throw to resist, losing half the amount of hit points on a successful save. This has no effect on Constructs or Undead. After using this blessing, you can't use it again until you complete a long rest. This damage die changes when you reach certain levels.</p>
+            <p>This damage die changes when you reach certain levels. The die becomes 1d10 at 5th level, a 2d12 at 10th level, and a 3d12 at 15th level</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Blessing of the Aspect" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_ASPECT_BLESSING">
+        <description>
+            <p>Scaling Mount Targon has convinced an Aspect to grant you their power. Consider your bond with this Aspect; have they bestowed you a shred of their abilities? Or have they fully merged with you, erasing your previous identity? Select one from the list or work with the DM to craft a blessing of similar power:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Blessing</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Aspect of Destiny</td>
+                        <td>While out of combat, you may use this blessing to alter the threads of fate. Predict and describe events of the next three in-game minutes. The DM can determine if these events will be Easy (DC 10), Medium (DC 13), Hard (DC 17), or Impossible (DC 20) to occur. Then, roll 1d20. On a successful roll, events happen as described. After using this blessing (on a success or fail), you can't use it again until you complete a short or long rest.</td>
+                    </tr>
+                    <tr>
+                        <td>Aspect of Health</td>
+                        <td>As an action, you may invoke your Aspect to heal yourself or another willing creature you see for 1d6 + CHA. After using this blessing, you can't use it again until you complete a long rest. The dice changes when you reach certain levels. The die becomes 1d10 at 5th level, 1d12 at 10th level, and 2d12 at 15th level.</td>
+                    </tr>
+                    <tr>
+                        <td>Aspect of the Messenger</td>
+                        <td>You can establish a link of telepathic communication between yourself and any creature or entity that you have met before, across any distance. They must be able to comprehend a language you share. The link lasts for 5 minutes. In order to maintain the link, the rules of Concentration apply. After using this blessing, you can't use it again until you complete a long rest.</td>
+                    </tr>
+                    <tr>
+                        <td>Aspect of Revelry</td>
+                        <td>When prompted to make a Charisma check, you can use this blessing to add +10 to the roll. After using this blessing, you can't use it again until you complete a long rest.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Feat Feature" name="Blessing of the Aspect (Feat)" supports="Blessing of the Aspect" />
+        </rules>
+    </element>
+    <element name="Blessing of the Aspect (Aspect of Destiny)" type="Feat Feature" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_ASPECT_BLESSING_DESTINY">
+        <compendium display="false" />
+        <supports>Blessing of the Aspect</supports>
+        <description>
+            <p>While out of combat, you may use this blessing to alter the threads of fate. Predict and describe events of the next three in-game minutes. The DM can determine if these events will be Easy (DC 10), Medium (DC 13), Hard (DC 17), or Impossible (DC 20) to occur. Then, roll 1d20. On a successful roll, events happen as described. After using this blessing (on a success or fail), you can't use it again until you complete a short or long rest.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Blessing of the Aspect (Aspect of Health)" type="Feat Feature" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_ASPECT_BLESSING_HEALTH">
+        <compendium display="false" />
+        <supports>Blessing of the Aspect</supports>
+        <description>
+            <p>As an action, you may invoke your Aspect to heal yourself or another willing creature you see for 1d6 + CHA. After using this blessing, you can't use it again until you complete a long rest. The dice changes when you reach certain levels. The die becomes 1d10 at 5th level, 1d12 at 10th level, and 2d12 at 15th level.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Blessing of the Aspect (Aspect of Messenger)" type="Feat Feature" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_ASPECT_BLESSING_MESSENGER">
+        <compendium display="false" />
+        <supports>Blessing of the Aspect</supports>
+        <description>
+            <p>You can establish a link of telepathic communication between yourself and any creature or entity that you have met before, across any distance. They must be able to comprehend a language you share. The link lasts for 5 minutes. In order to maintain the link, the rules of Concentration apply. After using this blessing, you can't use it again until you complete a long rest.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Blessing of the Aspect (Aspect of Revelry)" type="Feat Feature" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_ASPECT_BLESSING_REVELRY">
+        <compendium display="false" />
+        <supports>Blessing of the Aspect</supports>
+        <description>
+            <p>When prompted to make a Charisma check, you can use this blessing to add +10 to the roll. After using this blessing, you can't use it again until you complete a long rest.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Ionian Weapon Training" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_IONIAN_WEAPON_TRAINING">
+        <description>
+            <p>You have proficiency with the kunai, shuriken, chakram, dao, jian, kama, and daikyu.</p>
+        </description>
+        <sheet>
+            <description>You have proficiency with the kunai, shuriken, chakram, dao, jian, kama, and daikyu.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KUNAI" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHURIKEN" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CHAKRAM" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAO" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JIAN" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KAMA" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAIKYU" />
+        </rules>
+    </element>
+    <element name="Internal Subrace" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_INTERNAL_SUB_RACE">
+        <description>
+            <p>Used to manage subraces</p>
+        </description>
+        <sheet>
+            <description>Used to manage subraces</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    
+</elements>

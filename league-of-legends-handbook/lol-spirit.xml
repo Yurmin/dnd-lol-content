@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>Spirit</name>
+        <update version="0.0.1">
+            <file name="race-Spirit.xml" url="" />
+        </update>
+    </info>
+    <element name="Spirit" type="Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACE_SPIRIT">
+        <description>
+            <p class="flavor">Spirits long precede the existence of human societies and history. Tied intrinsically to realms beyond mortal understanding, spirits are mystical and magical. Spirits draw some sustenance from the mortal world, though that sustenance takes different forms and extents. Demons, for instance, survive on negative aspects of mortal experience, gorging on the resulting manic, charged energy. Meanwhile, Yordles sometimes seek mortal companionship out of natural sociability. In either case, spirits bring supernatural influence to Runeterra.</p>
+            <h4>Drawn to Emotion</h4>
+            <p>Some spirits, particularly demons, are born directly from mortal emotion—embodying strong, collective feelings like fear, rage, sorrow, or desire. Others might be summoned by arcanists or cultists, and these spirits may then rely on mortal temptation and ensnarement for survival.</p>
+            <p>Other spirits, like yordles, may come from their enchanted homeland of Bandle City out of admiration or curiosity regarding the physical world. These more pleasant of these spirits tend to be genial, contributing to human societies and advancements. The more unpleasant of these spirits, however, might be more impish and potentially harmful.</p>
+            <h4>Predator and Prey</h4>
+            <p>For different reasons, spirits are often considered unwelcome in Runeterra's civilizations. Demons are abhorred as horrid predators, and mythos often emerges about these demonic menaces. As such, these spirits rarely engage in human affairs, instead preferring the cover of night to find isolated victims.</p>
+            <p>Yordles, with their unnatural appearance or their less-than-predictable motives, are frequently considered threats to some human societies. Some extremists have taken to hunting yordles without exception. However, some of these spirits have utilized their magic and ingenuity to create glamours. This allows them to appear much more palatable to society and continue interacting with the mortal world.</p>
+            <h4>Spirit names</h4>
+            <p>The names of spirits do not follow the traditional naming conventions of mortals. Demon names typically stem from what mortals might call them, giving their fears or anxieties identity and physical form. Or, a demon might choose a name from past victims, assuming a different name as time goes on. Contrastingly, yordle names tend to sound friendly and welcoming, with double letters or simple syllabic counts.</p>
+            <p>
+                <span class="feature">Demonic Names:</span>
+                Asha, Damethus, Faltas, Redmurne, Yeboros
+                <br />
+                <span class="feature">Yordle Names:</span>
+                Bicey, Cheelie, Eearey, Fayan, Grari, Jilni, Ledrey, Meevo, Pimmer, Perret, Wultz, Yorro, Zefo
+                <br />
+            </p>
+            <h4>Spirit traits</h4>
+            <p>Your spirit character has the following traits:</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase</em>
+                </strong>
+                Your Charisma score increases by 2.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Age</em>
+                </strong>
+                Spirits age at a much slower rate than humans, and their lifespans are drastically higher, lasting millennia.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Alignment</em>
+                </strong>
+                Spirits can be wily and unpredictable; as such, they are rarely of lawful alignments. Demons are often evil in alignment, while yordles tend toward good.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Size</em>
+                </strong>
+                Spirit forms vary. If you are a demon, your size is Medium. If you are a yordle, your size is Small.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Speed</em>
+                </strong>
+                Your base walking speed is 30 feet.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Living Spirit</em>
+                </strong>
+                You are immune to disease. You do not need to eat, but you can ingest food and drink if you wish. Also, instead of sleeping, you enter a sleep-like state. You need to remain in it for only 4 hours each day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Mystical Awareness</em>
+                </strong>
+                You have advantage on saving throws against being charmed, and magic can’t put you to sleep.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Spirit Realm's Refuge</em>
+                </strong>
+                As an action, you can teleport into a pocket of the Spirit Realm. The pocket is about 20 x 20 feet, and you can remain there for one hour. When the hour ends or when you choose, you teleport back to the exact location you were in prior to entering the Spirit Realm, or in the nearest unoccupied space. Once you use this feature, you cannot use it again until you complete three long rests.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Languages</em>
+                </strong>
+                You can speak, read, and write Va-Nox and Sylvan, the language of the Spirit Realm.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Subraces</em>
+                </strong>
+                Spirits are generally divided into two groups. Demons are malevolent, feasting on the turbulent emotions or desires of mortals. Yordles tend to be more amiable, traversing Runeterra with wellmeant mischief. Choose one of these subraces.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names-format">{{name}}</set>
+            <set name="height" modifier="2d10">4'8"</set>
+            <set name="weight" modifier="2d4">110 lb</set>
+        </setters>
+        <rules>
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_VANOX" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_LIVING_SPIRIT" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MYSTICAL_AWARENESS" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SPIRIT_REALM'S_REFUGE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SPIRIT_SUBRACE" />
+        </rules>
+    </element>
+    <element name="Living Spirit" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_LIVING_SPIRIT">
+        <description>
+            <p>You are immune to disease. You do not need to eat, but you can ingest food and drink if you wish. Also, instead of sleeping, you enter a sleep-like state. You need to remain in it for only 4 hours each day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>
+        </description>
+        <sheet>
+            <description>You are immune to disease. You do not need to eat, but you can ingest food and drink if you wish. Also, instead of sleeping, you enter a sleep-like state. You need to remain in it for only 4 hours each day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Mystical Awareness" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MYSTICAL_AWARENESS">
+        <description>
+            <p>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Spirit Realm's Refuge" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SPIRIT_REALM'S_REFUGE">
+        <description>
+            <p>As an action, you can teleport into a pocket of the Spirit Realm. The pocket is about 20 x 20 feet, and you can remain there for one hour. When the hour ends or when you choose, you teleport back to the exact location you were in prior to entering the Spirit Realm, or in the nearest unoccupied space. Once you use this feature, you cannot use it again until you complete three long rests.</p>
+        </description>
+        <sheet>
+            <description>As an action, you can teleport into a pocket of the Spirit Realm. The pocket is about 20 x 20 feet, and you can remain there for one hour. When the hour ends or when you choose, you teleport back to the exact location you were in prior to entering the Spirit Realm, or in the nearest unoccupied space. Once you use this feature, you cannot use it again until you complete three long rests.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Spirit Subrace" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SPIRIT_SUBRACE">
+        <description>
+            <p>Spirits are generally divided into two groups. Demons are malevolent, feasting on the turbulent emotions or desires of mortals. Yordles tend to be more amiable, traversing Runeterra with wellmeant mischief. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Spirit Subrace" supports="Spirit" />
+        </rules>
+    </element>
+    <element name="Demon Spirit" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_DEMON">
+        <supports>Spirit</supports>
+        <description>
+            <p>The appearance of a demon differs wildly. Some accounts claim to have seen a humanoid catfish haunting the gambling halls of Bilgewater. Other legends abound of a lustful demoness who takes whatever form her targets find desirable. Less powerful demons might assume a physical form with which to interact with mortals. Upon the destruction of that form, the spirit returns to the Spirit Realm for recuperation.</p>
+            <p>Unholy dwellers of darkness, demons wander the world in search of mortals to make prey. While the intentions demons hold can be hard to pinpoint, they can be assumed to be evil in nature. After all, their specialty might be in consuming and corrupting souls.</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase</em>
+                </strong>
+                Your Wisdom score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Evil Insight</em>
+                </strong>
+                Once per long rest, you can look into the weaknesses of a creature you can see. As a bonus action, you can target a creature. Make a Wisdom (Insight) check against that creature's Charisma (Deception). Upon success, you gain advantage on the next attack roll against that creature. Also, you learn the creature's damage vulnerabilities, if any.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Demonic Darkvision</em>
+                </strong>
+                Being a demon, you are much accustomed to prowling in the dark. Your darkvision has a radius of 120 feet. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Light Aversion</em>
+                </strong>
+                You are vulnerable to radiant damage.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="2d10">4'8"</set>
+            <set name="weight" modifier="2d4">110 lb.</set>
+        </setters>
+        <rules>
+            <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_EVIL_INSIGHT" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_DEMONIC_DARKVISION" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_LIGHT_AVERSION" />
+            <stat name="charisma" value="2" />
+            <stat name="wisdom" value="1" />
+        </rules>
+    </element>
+    <element name="Evil Insight" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_EVIL_INSIGHT">
+        <description>
+            <p>Once per long rest, you can look into the weaknesses of a creature you can see. As a bonus action, you can target a creature. Make a Wisdom (Insight) check against that creature's Charisma (Deception). Upon success, you gain advantage on the next attack roll against that creature. Also, you learn the creature's damage vulnerabilities, if any.</p>
+        </description>
+        <sheet>
+            <description>Once per long rest, you can look into the weaknesses of a creature you can see. As a bonus action, you can target a creature. Make a Wisdom (Insight) check against that creature's Charisma (Deception). Upon success, you gain advantage on the next attack roll against that creature. Also, you learn the creature's damage vulnerabilities, if any.</description>
+        </sheet>
+        <rules>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+        </rules>
+    </element>
+    <element name="Demonic Darkvision" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_DEMONIC_DARKVISION">
+        <description>
+            <p>Being a demon, you are much accustomed to prowling in the dark. Your darkvision has a radius of 120 feet. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+        </description>
+        <sheet>
+            <description>Being a demon, you are much accustomed to prowling in the dark. Your darkvision has a radius of 120 feet. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Light Aversion" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_LIGHT_AVERSION">
+        <description>
+            <p>You are vulnerable to radiant damage.</p>
+        </description>
+        <sheet>
+            <description>You are vulnerable to radiant damage.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Yordle Spirit" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_YORDLE">
+        <supports>Spirit</supports>
+        <description>
+            <p>Small and lively, yordles tend to have mammalian features. They have a range of physical characteristics, with male yordles typically appearing more furry while female yordles appearing with smooth, brightly-colored skin.</p>
+            <p>Yordles may be one of the most misunderstood beings across Runeterra. Some underestimate them as harmless little creatures without their own ambitions. Others drastically overstate the dangers that yordles pose. Somehow, yordles persist, chasing their aspirations, whether that be making technological advancements in the mortal world or causing ruckus in one's wake.</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase</em>
+                </strong>
+                Your Intelligence score increases by 2.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Magic Mischief</em>
+                </strong>
+                Yordles are inherently magical. Once per long rest, you can use your bonus action to do one of the following:
+                <ul>
+                    <li>Impose advantage on the next spell attack by a willing creature other than yourself.</li>
+                    <li> Impose disadvantage on the next enemy spell attack.</li>
+                    <li>Change the damage type of your next successful spell attack.</li>
+                </ul>
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Yordle Ears</em>
+                </strong>
+                Yordles tend to have large, sometimes fluffy ears. As such, you have advantage on Wisdom (Perception) checks that rely on hearing.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="2d10">4'8"</set>
+            <set name="weight" modifier="2d4">110 lb.</set>
+        </setters>
+        <rules>
+            <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MAGIC_MISCHIEF" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_YORDLE_EARS" />
+            <stat name="charisma" value="2" />
+            <stat name="intelligence" value="2" />
+        </rules>
+    </element>
+    <element name="Magic Mischief" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MAGIC_MISCHIEF">
+        <description>
+            <p>
+                Yordles are inherently magical. Once per long rest, you can use your bonus action to do one of the following:
+                <ul>
+                    <li>Impose advantage on the next spell attack by a willing creature other than yourself.</li>
+                    <li> Impose disadvantage on the next enemy spell attack.</li>
+                    <li>Change the damage type of your next successful spell attack.</li>
+                </ul>
+            </p>
+        </description>
+        <sheet>
+            <description>
+                Yordles are inherently magical. Once per long rest, you can use your bonus action to do one of the following:
+                <ul>
+                    <li>Impose advantage on the next spell attack by a willing creature other than yourself.</li>
+                    <li> Impose disadvantage on the next enemy spell attack.</li>
+                    <li>Change the damage type of your next successful spell attack.</li>
+                </ul>
+            </description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Yordle Ears" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_YORDLE_EARS">
+        <description>
+            <p>Yordles tend to have large, sometimes fluffy ears. As such, you have advantage on Wisdom (Perception) checks that rely on hearing.</p>
+        </description>
+        <sheet>
+            <description>Yordles tend to have large, sometimes fluffy ears. As such, you have advantage on Wisdom (Perception) checks that rely on hearing.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+</elements>

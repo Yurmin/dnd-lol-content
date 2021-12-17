@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>{name}</name>
+		<update version="0.0.1">
+			<file name="race-{name}.xml" url="" />
+		</update>
+	</info>
+	<element name="{name}" type="Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACE_{name.upper().replace(" ", "_")}">
+		<description>
+			<p class="flavor">{flavorParagraph}</p>
+			for (heading, paragraph) in description:
+                result+=descriptionGen(heading, paragraph)
+            <h4>{heading}</h4>
+            <p>{paragraph}</p>
+            <h4>{name} names</h4>
+			<p>{nameDescription}</p>
+			<p>
+            for (nametype, names) in nameData:
+                nameGen(nametype, names)
+			<span class="feature">{nametype} Names:</span>{names}<br />
+			</p>
+            <h4>{name} traits</h4>
+			<p>{traitsDescription}</p>
+			for (traitName, traitDescription) in traitDescriptions:
+                traitGen(traitName, traitDescription)
+            <p class="indent"><strong><em>{traitName}</em></strong>{traitDescription}</p>
+        </description>
+		<sheet display="false" />
+		<setters>
+			for (nametype, names) in 
+                nameSetterGen(nametype, names)
+            <set name="names" type="{nametype.lower()}">{names}</set>
+			<set name="names-format">{nameFormat}</set>
+			<set name="height" modifier="{heightMod}">{height}</set>
+			<set name="weight" modifier="{weightMod}">{weight}</set>
+		</setters>
+		<rules>
+            for (stat, statValue) in stats:
+                statGen(stat, statValue)
+			<stat name="{stat}" value="{statValue}" requirements="!ID_ORKIDIAN_INTERNAL_SUB_RACE"/>
+			TODO<select type="Racial Trait" name="Ability Score Increase ({name})" supports="{name}" number="2" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+			<stat name="innate speed" value="{speed}" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_{size.upper()}" />
+			if(darkvision):
+                result+=<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_VANOX" />
+			if(moreLanguage):
+                for i in moreLanguages:
+                    result+=<select type="Language" name="Language ({name})" supports="Standard||Exotic" requirements="!ID_ORKIDIAN_INTERNAL_SUB_RACE"/>
+            for (traitName, traitDescription) in traitDescriptions:
+                traitGrantGen(traitName)
+                <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_{traitname.upper().replace(" ", "_")}" />
+            if subraces:
+                <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_{name.upper().replace(" ", "_")}_SUBRACE" />
+            </rules>
+    </element>
+    <!-- for (traitName, traitDescription) in traitDescriptions:
+        traitElementGen(traitName, traitDescription) -->
+	<element name="{traitName}" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_{traitName.upper().replace(" ", "_")}">
+		<description>
+			<p>{traitDesc}</p>
+		</description>
+		<sheet>
+			<description>{traitDesc}</description>
+		</sheet>
+        <rules></rules>
+	</element>
+    if tableName:
+        tableGen(tableName, tableDescription, tableOptions)
+	<element name="{tableName}" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_{tableName.upper().replace(" ", "_")}">
+		<description>
+                {tableDescription}
+		</description>
+		<rules>
+			<select type="Racial Trait" name="{tableName}" supports="{tableName}" />
+		</rules>
+	</element>
+    for (tableTrait, tableTraitDesc) in tableOptions:
+	<element name="{tableName} ({tableTrait})" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_{tableName.upper().replace(" ", "_")}_{tableTrait.upper().replace(" ", "_")}">
+		<supports>{trableName}</supports>
+		<description>
+			<div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_{tableName.upper().replace(" ", "_")}" />
+		</description>
+		<sheet alt="{tableTrait}">
+			<description>{tableTraitDesc}</description>
+		</sheet>
+		<rules></rules>
+	</element>
+    if subraces:
+    <element name="{name} Subrace" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_{name.upper().replace(" ", "_")}_SUBRACE">
+		<description>
+			<p>{subraceDesc}</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="{name} Subrace" supports="{name}" />
+		</rules>
+	</element>
+
+    for subrace in subraces:
+        subraceGen(subrace)
+    
+        <element name="{subrace["name"]}" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_{subrace["name"].upper().replace(" ", "_")}">
+            <supports>Elf</supports>
+            <description>
+                <p>subrace["description"]</p>
+                for (traitName, traitDescription) in subrace["traits"]:
+                    traitGen(traitName, traitDescription)
+                </description>
+            <sheet display="false" />
+            <setters>
+                <set name="height" modifier="subrace["heightMod"]">subrace["height"]</set>
+                <set name="weight" modifier="subrace["weightMod"]">subrace["weight"]</set>
+            </setters>
+            <rules>
+                <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            </rules>
+        </element>
+</elements>

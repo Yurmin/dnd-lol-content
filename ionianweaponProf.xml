@@ -1,0 +1,17 @@
+<element name="Ionian Weapon Training" type="Feat" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_FEAT_IONIAN_WEAPON_TRAINING">
+    <description>
+        <p>You have proficiency with the kunai, shuriken, chakram, dao, jian, kama, and daikyu.</p>
+    </description>
+    <sheet>
+        <description>You have proficiency with the kunai, shuriken, chakram, dao, jian, kama, and daikyu.</description>
+    </sheet>
+    <rules>
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KUNAI" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHURIKEN" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CHAKRAM" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAO" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JIAN" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KAMA" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAIKYU" />
+    </rules>
+</element>

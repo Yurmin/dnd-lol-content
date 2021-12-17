@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>League of Legends Handbook</name>
+		<description>This is a fan-made handbook. detailing a League of Legends campaign setting for play in Dungeons &amp; Dragons Fifth Edition.</description>
+		<author url="https://www.gmbinder.com/share/-MAA83ZvYm1tTpNzAUfA/-Mae69i55ADzjI_i0aB6">Orkidian</author>
+		<update version="0.1">
+			<file name="league-of-legends-handbook.index" url="" />
+		</update>
+	</info>
+	<files>
+		<file name="sources.xml" url="" />
+
+		<!-- races -->
+		<file name="lol-race-ascended.xml" url="" />
+
+		<!-- misc -->
+		<file name="lol-languages.xml" url="" />
+		<file name="lol-feats.xml" url="" />
+		
+
+	</files>
+</index>

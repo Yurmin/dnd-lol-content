@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>Golem</name>
+        <update version="0.0.1">
+            <file name="race-Golem.xml" url="" />
+        </update>
+    </info>
+    <element name="Golem" type="Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACE_GOLEM">
+        <description>
+            <p class="flavor">In a land as rich in magic and technology as Runeterra, people have utilized such tools to create constructions. Furthermore, the innate power of the natural world sometimes births sentient constructs, made up of the raw materials from the runic wild. These beings, collectively known as golems, often commit themselves to the service of others. Indeed, the existence of some golems are predicated upon the completion of tasks granted by others. Whether it be undying loyalty to the master who created them, or an exclusive sense of duty to the land from which they emerged, a golem can be counted upon for their unflinching dedication.</p>
+            <h4>Constructions, Categorized</h4>
+            <p>The classifications of golems can be specified further. Golems made of machinery and technology, also known as robots, are programmed by the realm's best artificers and technomancers. Other golems can be crafted from more natural substances, like flora and rocks imbued with magic.</p>
+            <p>While most of these golems have a single master who can be credited with their creation, golems also emerge naturally in the wild. These golems, called sentinels or stone-golems, vary in area of origin and level of sentience. They might be founded from the arcane, living rocks of Ionia to the petrified bark found in Valoran. However, such beings are more comparable to beasts in terms of intelligence.</p>
+            <h4>Golem names</h4>
+            <p>As constructions, golems do not follow the same naming conventions as their human counterparts. Inorganic golems are given a name by their creator. Organic golems often derive their names from the materials of which they are created.</p>
+            <p>
+                <span class="feature">Golem Names:</span>
+                Beltrite, Cancrite, Duopsion, Incron, Ionase, Kogatz, Mannabar, Marevite, Noremite, Phoelite, Resphur, Sovalt, Surasite, Valile
+                <br />
+            </p>
+            <h4>Golem traits</h4>
+            <p>Your golem character has the following traits:</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase</em>
+                </strong>
+                Your Strength score increases by 2.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Age</em>
+                </strong>
+                Golems are not born as mortals are, and they do not age as mortals do. They are constructed, so your character's age is based upon when you were created or emerged from the wild.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Alignment</em>
+                </strong>
+                Golems, especially inorganic golems, are generally programmed to carry out the will of their creators. Therefore, they tend toward lawful alignments.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Size</em>
+                </strong>
+                The most powerful golems—particularly those constructed by legendary artificers or borne of fabled, magical sources—may tower above mortals. However, most appear more human-like in size. Your size is Medium.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Speed</em>
+                </strong>
+                Your base walking speed is 30 feet.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Living Construct</em>
+                </strong>
+                Even though you were constructed, you are a living creature. You are immune to disease. You do not need to eat, drink, or breathe. Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Natural Armor</em>
+                </strong>
+                You have an armor bonus of +1 when wearing armor. When you are not wearing armor, your AC is equal to 10 + your natural armor bonus + your dexterity modifier.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Languages</em>
+                </strong>
+                You can speak, read, and write Va-Nox.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Subraces</em>
+                </strong>
+                Golems can be separated into two subraces, based on their source and materials from which they are made. These categories are inorganic golems and organic golems; choose one such subrace.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names-format">{{name}}</set>
+            <set name="height" modifier="2d10">4'8"</set>
+            <set name="weight" modifier="2d4">110 lb</set>
+        </setters>
+        <rules>
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_VANOX" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_LIVING_CONSTRUCT" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_NATURAL_ARMOR" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_GOLEM_SUBRACE" />
+        </rules>
+    </element>
+    <element name="Living Construct" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_LIVING_CONSTRUCT">
+        <description>
+            <p>Even though you were constructed, you are a living creature. You are immune to disease. You do not need to eat, drink, or breathe. Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.</p>
+        </description>
+        <sheet>
+            <description>Even though you were constructed, you are a living creature. You are immune to disease. You do not need to eat, drink, or breathe. Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Natural Armor" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_NATURAL_ARMOR">
+        <description>
+            <p>You have an armor bonus of +1 when wearing armor. When you are not wearing armor, your AC is equal to 10 + your natural armor bonus + your dexterity modifier.</p>
+        </description>
+        <sheet>
+            <description>You have an armor bonus of +1 when wearing armor. When you are not wearing armor, your AC is equal to 10 + your natural armor bonus + your dexterity modifier.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Golem Subrace" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_GOLEM_SUBRACE">
+        <description>
+            <p>Golems can be separated into two subraces, based on their source and materials from which they are made. These categories are inorganic golems and organic golems; choose one such subrace.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Golem Subrace" supports="Golem" />
+        </rules>
+    </element>
+    <element name="Inorganic Golem" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_INORGANIC">
+        <supports>Golem</supports>
+        <description>
+            <p>Inorganic golems refer to beings that derive power and energy through man-made means. They are typically made of metal, plating, or other machinery. Such golems might be motorized and made sentient through steam power, electricity, artificing, or even technological magic (called technomancy).</p>
+            <p>Inorganic golems are sometimes found throughout Piltover and Zaun, where the blooming culture of invention encourages their construction. Outside of these sister-cities, however, some debate the morality of creating life unnaturally.</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase</em>
+                </strong>
+                Your Intelligence score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Extra Language</em>
+                </strong>
+                You are programmed with the ability to imitate another language perfectly. You can speak, read, and write one extra language of your choice.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Knowledge Programmed</em>
+                </strong>
+                Your creator designed you with certain competencies. You are proficient in any combination of three skills or tools of your choice.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Machine's Mastery</em>
+                </strong>
+                You are programmed with a practical function or apparatus; choose one trait from the table below.
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Trait</td>
+                            <td>Description</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Climbing Picks</td>
+                            <td>You have a climbing speed of 30 feet.  </td>
+                        </tr>
+                        <tr>
+                            <td>Darkvision</td>
+                            <td>You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</td>
+                        </tr>
+                        <tr>
+                            <td>Drills</td>
+                            <td>You have a burrowing speed of 30 feet.</td>
+                        </tr>
+                        <tr>
+                            <td>Water Engine</td>
+                            <td>You have a swimming speed of 30 feet</td>
+                        </tr>
+                        <tr>
+                            <td>Wheels</td>
+                            <td>Your base walking speed increases to 35 feet.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="2d10">4'8"</set>
+            <set name="weight" modifier="2d4">110 lb.</set>
+        </setters>
+        <rules>
+            <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_KNOWLEDGE_PROGRAMMED" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY" />
+            <stat name="intelligence" value="1" />
+            <stat name="strength" value="2" />
+        </rules>
+    </element>
+    <element name="Knowledge Programmed" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_KNOWLEDGE_PROGRAMMED">
+        <description>
+            <p>Your creator designed you with certain competencies. You are proficient in any combination of three skills or tools of your choice.</p>
+        </description>
+        <sheet>
+            <description>Your creator designed you with certain competencies. You are proficient in any combination of three skills or tools of your choice.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Organic Golem" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_ORGANIC">
+        <supports>Golem</supports>
+        <description>
+            The pure magic coursing through Runeterra sometimes materializes into elemental or organic golems.
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase</em>
+                </strong>
+                Your Constitution score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Golem's Muscle</em>
+                </strong>
+                Your size category is Medium, but you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Nature's Knowledge</em>
+                </strong>
+                You are proficient in the Nature skill.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Natural Weapon</em>
+                </strong>
+                You are proficient with your unarmed strikes, which deal 1d6 + STR damage on a hit.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Mask of the Wild</em>
+                </strong>
+                Your body, constructed of naturally-occuring materials, allows you to easily blend into the environment. You can attempt to hide when you are only slightly obscured by folliage, tree bark, or rock walls.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="2d10">4'8"</set>
+            <set name="weight" modifier="2d4">110 lb.</set>
+        </setters>
+        <rules>
+            <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_GOLEM'S_MUSCLE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_NATURE'S_KNOWLEDGE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_NATURAL_WEAPON" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MASK_OF_THE_WILD" />
+            <stat name="strength" value="2" />
+            <stat name="constitution" value="1" />
+        </rules>
+    </element>
+    <element name="Golem's Muscle" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_GOLEM'S_MUSCLE">
+        <description>
+            <p>Your size category is Medium, but you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+        </description>
+        <sheet>
+            <description>Your size category is Medium, but you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Nature's Knowledge" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_NATURE'S_KNOWLEDGE">
+        <description>
+            <p>You are proficient in the Nature skill.</p>
+        </description>
+        <sheet>
+            <description>You are proficient in the Nature skill.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Natural Weapon" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_NATURAL_WEAPON">
+        <description>
+            <p>You are proficient with your unarmed strikes, which deal 1d6 + STR damage on a hit.</p>
+        </description>
+        <sheet>
+            <description>You are proficient with your unarmed strikes, which deal 1d6 + STR damage on a hit.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Mask of the Wild" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MASK_OF_THE_WILD">
+        <description>
+            <p>Your body, constructed of naturally-occuring materials, allows you to easily blend into the environment. You can attempt to hide when you are only slightly obscured by folliage, tree bark, or rock walls.</p>
+        </description>
+        <sheet>
+            <description>Your body, constructed of naturally-occuring materials, allows you to easily blend into the environment. You can attempt to hide when you are only slightly obscured by folliage, tree bark, or rock walls.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Machine's Mastery" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY">
+        <description>
+            <p>You are programmed with a practical function or apparatus; choose one trait from the table below.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Trait</td>
+                        <td>Description</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Climbing Picks</td>
+                        <td>You have a climbing speed of 30 feet.  </td>
+                    </tr>
+                    <tr>
+                        <td>Darkvision</td>
+                        <td>You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</td>
+                    </tr>
+                    <tr>
+                        <td>Drills</td>
+                        <td>You have a burrowing speed of 30 feet.</td>
+                    </tr>
+                    <tr>
+                        <td>Water Engine</td>
+                        <td>You have a swimming speed of 30 feet</td>
+                    </tr>
+                    <tr>
+                        <td>Wheels</td>
+                        <td>Your base walking speed increases to 35 feet.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </description>
+        <rules>
+            <select type="Racial Trait" name="Machine's Mastery" supports="Machine's Mastery" />
+        </rules>
+    </element>
+    <element name="Machine's Mastery (Climbing Picks)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY_CLIMBING_PICKS">
+        <supports>Machine's Mastery</supports>
+        <description>
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY" />
+        </description>
+        <sheet alt="Climbing Picks">
+            <description>You have a climbing speed of 30 feet.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Machine's Mastery (Darkvision)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY_DARKVISION">
+        <supports>Machine's Mastery</supports>
+        <description>
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY" />
+        </description>
+        <sheet alt="Darkvision">
+            <description>You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Machine's Mastery (Drills)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY_DRILLS">
+        <supports>Machine's Mastery</supports>
+        <description>
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY" />
+        </description>
+        <sheet alt="Drills">
+            <description>You have a burrowing speed of 30 feet.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Machine's Mastery (Water Engine)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY_WATER_ENGINE">
+        <supports>Machine's Mastery</supports>
+        <description>
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY" />
+        </description>
+        <sheet alt="Water Engine">
+            <description>You have a swimming speed of 30 feet</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Machine's Mastery (Wheels)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY_WHEELS">
+        <supports>Machine's Mastery</supports>
+        <description>
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY" />
+        </description>
+        <sheet alt="Wheels">
+            <description>Your base walking speed increases to 35 feet.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+</elements>

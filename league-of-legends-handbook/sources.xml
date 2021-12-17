@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="sources.xml" url="" />
+		</update>
+	</info>
+	<element name="League of Legends Handbook" type="Source" source="Third Party" id="ID_ORKIDIAN_SOURCE_LOLHB">
+		<description>
+			<![CDATA[<p>This is a fan-made handbook. detailing a League of Legends campaign setting for play in Dungeons &amp; Dragons Fifth Edition.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">LOLHB</set>
+			<set name="url">https://www.gmbinder.com/share/-MAA83ZvYm1tTpNzAUfA/-Mae69i55ADzjI_i0aB6</set>
+			<set name="image">https://lolstatic-a.akamaihd.net/frontpage/apps/prod/artbook/en_US/f31d8b829b603b4b65fdff2475bd0803ced0179d/assets/content/acknowledgements/lol.png</set>
+			<set name="errata">https://www.gmbinder.com/share/-MAA83ZvYm1tTpNzAUfA/-Mae69i55ADzjI_i0aB6</set>
+			<set name="author" abbreviation="Orkidian" url="https://twitter.com/orkidian">Orkidian</set>
+			<set name="official">false</set>
+			<set name="core">true</set>
+			<set name="release">1621987200</set>
+		</setters>
+	</element>
+</elements>

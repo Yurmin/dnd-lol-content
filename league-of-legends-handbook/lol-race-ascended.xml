@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>Ascended</name>
+        <update version="0.0.1">
+            <file name="race-Ascended.xml" url="" />
+        </update>
+    </info>
+    <element name="Ascended" type="Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACE_ASCENDED">
+        <description>
+            <p class="flavor">Transformed by an ancient, divine disc or merged with a celestial power, the Ascended are elevated beyond their mortal states into legendary, powerful beings. Physically, they are indelibly evolved, made more powerful, more swift, and more resilient. Their minds are changed as well; indeed, due to their exalted station, they are concerned with matters far above the day-to-day matters of mortals. From protecting the noble tenets of justice and truth to pursuing world-ending revenge, the nature of an individual Ascended depends on their life as a mortal and the nature of their Ascension. No matter the motivation, the presence of an Ascended points to universe-altering events to come.</p>
+            <h4>Beyond Mortal Bounds</h4>
+            <p>Extremely rare, the Ascended are some of the most powerful beings to roam Runeterra. With inhuman speed, strength, and stamina, the Ascended are called to commit themselves to otherworldly, far-reaching causes.</p>
+            <p>The physical form of such a being shows undeniable evidence of their Ascension. The Shuriman Ascended fuse with the image of an animal, assuming a beastly and noble quality. The Targonian Ascended, though human in likeness, may have characteristics that reveal the celestial that resides within them. For instance, Leona, the Aspect of the Sun, seems to physically shine with the power of the Sun, and her eyes burn with its brightness. The Darkin warp the bodies of their mortal hosts, slowly decaying the form through corrupt energy and blood magic.</p>
+            <p>Although immune to most natural causes of death, the Ascended can be defeated in some manner. Particular weapons and magics exist that can maim or kill Shuriman and Targonian Ascended, and the Darkin can be sealed within their weapons so long as they are without a host.</p>
+            <h4>Ascended names</h4>
+            <p>As both the Shuriman Ascended and the Darkin reached Ascension during the reign of the Shuriman Empire, their names are based in the Ancient Shuriman language. The Darkin, according to their leader Aatrox, frequently have doubled vowels in their names. The Targonian Ascended tend to keep their mortal, mundane names rather than assume the identity of the celestial aspect within them (see Targonian Humans).</p>
+            <p>
+                <span class="feature">Shuriman Names:</span>
+                Az'ravi, Bahatek, Esh'kai, Ishtaka, Nacrath, Nixa, Retekta, Sek'riza, Xeyush
+                <br />
+                <span class="feature">Darkin Names:</span>
+                Aalrut, Ceheltox, Khaal, Ma'almar, Nek'xast, Rhelaas, Seltaava, Shalteeya, Taltarus, Virresh, Xuust
+                <br />
+            </p>
+            <h4>Ascended traits</h4>
+            <p>Your Ascended character has the following traits:</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase</em>
+                </strong>
+                Your Dexterity score increases by 2.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Age</em>
+                </strong>
+                Prior to becoming Ascended, these beings age according to their mortal life. After Ascension, their aging slows and their natural lifespans are drastically increased, spanning millennia.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Alignment</em>
+                </strong>
+                The Ascended are steadfast in their ambitions; without personal appetite and vigor, their Ascension would undoubtedly fail. As such, they are rarely of totally neutral alignments. Targonian Ascended tend toward good alignments, while Darkin tend toward evil.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Size</em>
+                </strong>
+                Some retain their human frame when becoming Ascended, and others are altered in size and shape after the transformation. As such, Ascended vary from about 5 feet to over 7 feet tall. Your size is Medium.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Speed</em>
+                </strong>
+                Your base walking speed is 30 feet.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Ascended Endurance</em>
+                </strong>
+                When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Languages</em>
+                </strong>
+                You can speak, read, and write Va-Nox.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Subrace</em>
+                </strong>
+                The different processes of Ascension divides the Ascended into Shuriman Ascended and Targonian Ascended. From there, the Darkin are formerly Shuriman Ascended who have been corrupted through war and betrayal. Choose one of these subraces.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names-format">{{name}}</set>
+            <set name="height" modifier="2d10">4'8"</set>
+            <set name="weight" modifier="2d4">110 lb</set>
+        </setters>
+        <rules>
+            <stat name="dexterity" value="2" requirements="!ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_VANOX" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_ASCENDED_ENDURANCE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_ASCENDED_SUBRACE" />
+        </rules>
+    </element>
+    <element name="Ascended Endurance" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_ASCENDED_ENDURANCE">
+        <description>
+            <p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Ascended Subrace" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_ASCENDED_SUBRACE">
+        <description>
+            <p>The different processes of Ascension divides the Ascended into Shuriman Ascended and Targonian Ascended. From there, the Darkin are formerly Shuriman Ascended who have been corrupted through war and betrayal. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Ascended Subrace" supports="Ascended" />
+        </rules>
+    </element>
+    <element name="Shuriman Ascended" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_SHURIMAN">
+        <supports>Ascended</supports>
+        <description>
+            <p>Millennia ago, during the height of the Shuriman Empire, Shuriman warriors of exceptional loyalty and ability had been selected for a rite known as the Ritual of Ascension. Through the power of an ancient, colossal artifact known as the Sun Disc of Shurima, these warriors had been imbued with mystic energy.Based on the ideals they uphold and Shurima's culture of symbolism, they are merged with an aligning animalistic spirit. These beings harbor great physical strength, stature, and resilience. Indeed, when the sun had not yet set on the Empire of Shurima, these beings made up an Ascended legion, the Sunborn, charged with protecting Shurima and Azir.</p>
+            <p>In the days of the empire's decline, the Ritual of Ascension had failed with greater frequency. Unsuccessful Ascensions either killed those who participated in the ceremony or produced failed, scarred Ascended called Baccai. Furthermore, most of the Ascended of ancient times had been destroyed in battles with the Void and in civil wars. Nonetheless, the recent resurrection of the Shuriman emperor Azir and his following Ascension reveals that the</p>
+            <p>Sun Disc may yet claim the worthy for its sacred transformation.</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase</em>
+                </strong>
+                Your Constitution score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Blessing of the Sun Disc</em>
+                </strong>
+                <p>The transformation has gifted you with a unique ability based on the studies and nature of your life as a human. Select one from the list below or work with the DM to craft a blessing of similar power:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Blessing</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Ascended Fury</th>
+                            <td>
+                                <p>When successfully landing an attack that deals bludgeoning, piercing, or slashing damage, you can channel Ascended Fury to cause that attack to deal another 1d6 + STR damage. After using this blessing, you can't use it again until you complete a long rest.</p>
+                                <p>This damage die changes when you reach certain levels. The die becomes 1d10 at 5th level, a 1d12 at 10th level, and a 2d12 at 15th level.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Ghost of the Soldier</th>
+                            <td>
+                                <p>
+                                    As a bonus action, you can conjure a Sand Soldier within 15 feet of you and in an empty space with 5 feet on all sides.
+                                    <ul>
+                                        <li>It can make a melee spear attack for 1d6 + DEX.</li>
+                                        <li>Your movement can be used to move the soldier.</li>
+                                        <li>The soldier cannot perceive anything.</li>
+                                        <li> The soldier has hit points equal to 1d6 + CHA.</li>
+                                        <li>The soldier dissolves after 1 minute or if you are not within 15 feet of it.</li>
+                                    </ul>
+                                    After using this blessing, you can't use it again until you complete a long rest.
+                                </p>
+                                <p>The damage die changes when you reach certain levels. The die becomes 2d10 at 5th level, a 2d12 at 10th level, and a 3d12 at 15th level.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Life Siphon</th>
+                            <td>
+                                <p>As an action, roll 1d6 + CHA against a creature you can see. You take this amount of hit points away from the target and add it to your own. The target may make a DC 13 CON saving throw to resist, losing half the amount of hit points on a successful save. This has no effect on Constructs or Undead. After using this blessing, you can't use it again until you complete a long rest.</p>
+                                <p>The damage die changes when you reach certain levels. The die becomes 1d10 at 5th level, a 2d12 at 10th level, and a 3d12 at 15th level.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Desert Terrain Familiarity</em>
+                </strong>
+                When traveling in desert terrain, you gain advantage on Wisdom (Survival) checks, and you are not hindered by difficult terrain.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Extra Languages</em>
+                </strong>
+                You can speak, read, and write in Ancient Shuriman and Modern Shuriman.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="2d10">4'8"</set>
+            <set name="weight" modifier="2d4">110 lb.</set>
+        </setters>
+        <rules>
+            <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_SUN_DISC" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_DESERT_TERRAIN_FAMILIARITY" />
+            <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_ANCIENTSHURIMAN" />
+            <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_SHURIMAN" />
+            <stat name="dexterity" value="2" />
+            <stat name="constitution" value="1" />
+        </rules>
+    </element>
+    <element name="Desert Terrain Familiarity" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_DESERT_TERRAIN_FAMILIARITY">
+        <description>
+            <p>When traveling in desert terrain, you gain advantage on Wisdom (Survival) checks, and you are not hindered by difficult terrain.</p>
+        </description>
+        <sheet>
+            <description>When traveling in desert terrain, you gain advantage on Wisdom (Survival) checks, and you are not hindered by difficult terrain.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Targonian Ascended" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_TARGONIAN">
+        <supports>Ascended</supports>
+        <description>
+            <p>The peak of Mount Targon exudes celestial power. The apex is the apparent portal between the physical world and Targon Prime, a celestial realm where beings known as Aspects live. But the mountain is nigh impossible to scale. Hidden by a layer of clouds, its rocky paths shift constantly—the land itself altered by a higher magic. Even reaching the top of the mountain is not a guarantee of one's success. Some may find empty ruins at the mountaintop, reflecting their soul's unworthiness. The ascent is the ultimate challenge of one's endurance, skill, dedication, and spirit.</p>
+            <p>Most mortals lose their lives in the climb. But for the few that make it—and for the fewer that the mountain finds worthy—they are rewarded with heavenly magic. The stellar Aspects, who embody concepts and constellations, may bestow some of their power unto a deserving mortal. Or, the Aspect may even fuse with a mortal, leaving the celestial plane and elevating the mortal into an almighty host.</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase</em>
+                </strong>
+                Your Charisma score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Blessing of the Aspect</em>
+                </strong>
+                Scaling Mount Targon has convinced an Aspect to grant you their power. Consider your bond with this Aspect; have they bestowed you a shred of their abilities? Or have they fully merged with you, erasing your previous identity? Select one from the list or work with the DM to craft a blessing of similar power:
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Blessing</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Aspect of Destiny</td>
+                            <td>While out of combat, you may use this blessing to alter the threads of fate. Predict and describe events of the next three in-game minutes. The DM can determine if these events will be Easy (DC 10), Medium (DC 13), Hard (DC 17), or Impossible (DC 20) to occur. Then, roll 1d20. On a successful role, events happen as described. After using this blessing (on a success or fail), you can't use it again until you complete a short or long rest.</td>
+                        </tr>
+                        <tr>
+                            <td>Aspect of Health</td>
+                            <td>As an action, you may invoke your Aspect to heal yourself or another willing creature you see for 1d6 + CHA. After using this blessing, you can't use it again until you complete a long rest. The dice changes when you reach certain levels. The die becomes 1d10 at 5th level, 1d12 at 10th level, and 2d12 at 15th level.</td>
+                        </tr>
+                        <tr>
+                            <td>Aspect of the Messenger</td>
+                            <td>You can establish a link of telepathic communication between yourself and any creature or entity that you have met before, across any distance. They must be able to comprehend a language you share. The link lasts for 5 minutes. In order to maintain the link, the rules of Concentration apply. After using this blessing, you can't use it again until you complete a long rest.</td>
+                        </tr>
+                        <tr>
+                            <td>Aspect of Revelry</td>
+                            <td>When prompted to make a Charisma check, you can use this blessing to add +10 to the roll. After using this blessing, you can't use it again until you complete a long rest.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Extra Language</em>
+                </strong>
+                You can speak, read, and write in Targonian.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Mountainous Terrain Familiarity</em>
+                </strong>
+                When traveling in mountainous terrain, you gain advantage on Wisdom (Survival) checks, and you are not hindered by difficult terrain.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="2d10">4'8"</set>
+            <set name="weight" modifier="2d4">110 lb.</set>
+        </setters>
+        <rules>
+            <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MOUNTAINOUS_TERRAIN_FAMILIARITY" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_ASPECT" />
+            <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_TARGONIAN" />
+            <stat name="dexterity" value="2" />
+            <stat name="charisma" value="1" />
+        </rules>
+    </element>
+    <element name="Mountainous Terrain Familiarity" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MOUNTAINOUS_TERRAIN_FAMILIARITY">
+        <description>
+            <p>When traveling in mountainous terrain, you gain advantage on Wisdom (Survival) checks, and you are not hindered by difficult terrain.</p>
+        </description>
+        <sheet>
+            <description>When traveling in mountainous terrain, you gain advantage on Wisdom (Survival) checks, and you are not hindered by difficult terrain.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Darkin Ascended" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_DARKIN">
+        <supports>Ascended</supports>
+        <description>
+            <p>Once god-warriors in the Ascended legion of the ancient Shuriman Empire, the Darkin are Ascended who have fallen far from grace. Several horrors and betrayals led to their irreversible corruption.</p>
+            <p>Fighting off the Void from consuming Runeterra exposed them to unspeakable abominations and catastrophic brutality. The fall of the emperor Azir and the collapse of the empire caused infighting in the Ascended legion, leaving many to feel purposeless, adrift. In this conflict between the Ascended, known as the Darkin War, those that would become the Darkin developed blood magic, forming and reforming their bodies. This war raged over Runeterra, with the Darkin taking countless mortal lives to fuel their magic and heal their wounds.</p>
+            <p>But ultimately, the Darkin were sealed away due to the intervention of the Targonians, particularly the Aspect of Twilight, a Targonian Ascended. The Aspect of Twilight taught mortals the magic necessary to entrap Darkin beings within their own weapons, if not outright destroyed. The Darkin War ended with the Darkin being suppressed and scattered; as centuries passed, the knowledge of their world-ending existence and capabilities fell into obscurity. But in recent times, mortals have found these once-hidden weapons and sought to wield them—potentially reviving these apocalyptic beings. When a mortal picks up a Darkin weapon, they are almost always instantly destroyed, their body overtaken and morphed into the Darkin’s physical host.</p>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score</em>
+                </strong>
+                Increase Your Strength score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Blood Magic</em>
+                </strong>
+                The Darkin created and perfected the arcane power of blood magic, called hemomancy. As a bonus action, you can use this knowledge to heal your wounds for 1d6 + CHA hit points. After you use this feature, you can’t use it again until you complete a long rest. The dice changes when you reach certain levels. The die becomes a d10 at 5th level, a d12 at 10th level, and a d20 at 15th level.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Sealed Weapon</em>
+                </strong>
+                All existing Darkin are inseparably tied to their weapon of choice. You are proficient in this weapon. In order to roam the world, the Darkin requires a mortal to take hold of the weapon and become their host. In doing so, the host's mind and identity are erased, and their body becomes possessed by the Darkin. The weapon must remain within 10 feet of the Darkin at all times. Without a host, the Darkin’s consciousness is plunged in darkness, without the ability to see or feel until another mortal attempts to wield them.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Vengeance of the Darkin</em>
+                </strong>
+                The Darkin have an appetite for bloodshed; using your sealed weapon, you can critically hit on a 19 or 20. When you critically hit with the sealed weapon, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>Extra Languages</em>
+                </strong>
+                You can speak, read, and write in Ancient Shuriman and the native language of your mortal host.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="2d10">4'8"</set>
+            <set name="weight" modifier="2d4">110 lb.</set>
+        </setters>
+        <rules>
+            <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_ANCIENTSHURIMAN" />
+            <select type="Language" name="Language" supports="Standard||Exotic" />
+            <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLOOD_MAGIC" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SEALED_WEAPON" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_VENGEANCE_OF_THE_DARKIN" />
+            <stat name="dexterity" value="2" />
+            <stat name="strength" value="1" />
+        </rules>
+    </element>
+    <element name="Blood Magic" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLOOD_MAGIC">
+        <description>
+            <p>The Darkin created and perfected the arcane power of blood magic, called hemomancy. As a bonus action, you can use this knowledge to heal your wounds for 1d6 + CHA hit points. After you use this feature, you can’t use it again until you complete a long rest. The dice changes when you reach certain levels. The die becomes a d10 at 5th level, a d12 at 10th level, and a d20 at 15th level.</p>
+        </description>
+        <sheet>
+            <description>The Darkin created and perfected the arcane power of blood magic, called hemomancy. As a bonus action, you can use this knowledge to heal your wounds for 1d6 + CHA hit points. After you use this feature, you can’t use it again until you complete a long rest. The dice changes when you reach certain levels. The die becomes a d10 at 5th level, a d12 at 10th level, and a d20 at 15th level.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Sealed Weapon" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SEALED_WEAPON">
+        <description>
+            <p>All existing Darkin are inseparably tied to their weapon of choice. You are proficient in this weapon. In order to roam the world, the Darkin requires a mortal to take hold of the weapon and become their host. In doing so, the host's mind and identity are erased, and their body becomes possessed by the Darkin. The weapon must remain within 10 feet of the Darkin at all times. Without a host, the Darkin’s consciousness is plunged in darkness, without the ability to see or feel until another mortal attempts to wield them.</p>
+        </description>
+        <sheet>
+            <description>All existing Darkin are inseparably tied to their weapon of choice. You are proficient in this weapon. In order to roam the world, the Darkin requires a mortal to take hold of the weapon and become their host. In doing so, the host's mind and identity are erased, and their body becomes possessed by the Darkin. The weapon must remain within 10 feet of the Darkin at all times. Without a host, the Darkin’s consciousness is plunged in darkness, without the ability to see or feel until another mortal attempts to wield them.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Vengeance of the Darkin" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_VENGEANCE_OF_THE_DARKIN">
+        <description>
+            <p>The Darkin have an appetite for bloodshed; using your sealed weapon, you can critically hit on a 19 or 20. When you critically hit with the sealed weapon, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</p>
+        </description>
+        <sheet>
+            <description>The Darkin have an appetite for bloodshed; using your sealed weapon, you can critically hit on a 19 or 20. When you critically hit with the sealed weapon, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Blessing of the Sun Disc" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_SUN_DISC">
+        <description>
+            <p>The transformation has gifted you with a unique ability based on the studies and nature of your life as a human. Select one from the list below or work with the DM to craft a blessing of similar power:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Blessing</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Ascended Fury</th>
+                        <td>
+                            <p>When successfully landing an attack that deals bludgeoning, piercing, or slashing damage, you can channel Ascended Fury to cause that attack to deal another 1d6 + STR damage. After using this blessing, you can't use it again until you complete a long rest.</p>
+                            <p>This damage die changes when you reach certain levels. The die becomes 1d10 at 5th level, a 1d12 at 10th level, and a 2d12 at 15th level.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Ghost of the Soldier</th>
+                        <td>
+                            <p>
+                                As a bonus action, you can conjure a Sand Soldier within 15 feet of you and in an empty space with 5 feet on all sides.
+                                <ul>
+                                    <li>It can make a melee spear attack for 1d6 + DEX.</li>
+                                    <li>Your movement can be used to move the soldier.</li>
+                                    <li>The soldier cannot perceive anything.</li>
+                                    <li> The soldier has hit points equal to 1d6 + CHA.</li>
+                                    <li>The soldier dissolves after 1 minute or if you are not within 15 feet of it.</li>
+                                </ul>
+                                After using this blessing, you can't use it again until you complete a long rest.
+                            </p>
+                            <p>The damage die changes when you reach certain levels. The die becomes 2d10 at 5th level, a 2d12 at 10th level, and a 3d12 at 15th level.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Life Siphon</th>
+                        <td>
+                            <p>As an action, roll 1d6 + CHA against a creature you can see. You take this amount of hit points away from the target and add it to your own. The target may make a DC 13 CON saving throw to resist, losing half the amount of hit points on a successful save. This has no effect on Constructs or Undead. After using this blessing, you can't use it again until you complete a long rest.</p>
+                            <p>The damage die changes when you reach certain levels. The die becomes 1d10 at 5th level, a 2d12 at 10th level, and a 3d12 at 15th level.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </description>
+        <rules>
+            <select type="Racial Trait" name="Blessing of the Sun Disc" supports="Blessing of the Sun Disc" />
+        </rules>
+    </element>
+    <element name="Blessing of the Sun Disc (Ascended Fury)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_SUN_DISC_ASCENDED_FURY">
+        <supports>Blessing of the Sun Disc</supports>
+        <description>
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_SUN_DISC" />
+        </description>
+        <sheet alt="Ascended Fury">
+            <description>
+                <p>When successfully landing an attack that deals bludgeoning, piercing, or slashing damage, you can channel Ascended Fury to cause that attack to deal another 1d6 + STR damage. After using this blessing, you can't use it again until you complete a long rest.</p>
+                <p>This damage die changes when you reach certain levels. The die becomes 1d10 at 5th level, a 1d12 at 10th level, and a 2d12 at 15th level.</p>
+            </description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Blessing of the Sun Disc (Ghost of the Soldier)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_SUN_DISC_GHOST_OF_THE_SOLDIER">
+        <supports>Blessing of the Sun Disc</supports>
+        <description>
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_SUN_DISC" />
+        </description>
+        <sheet alt="Ghost of the Soldier">
+            <description>
+                <p>
+                    As a bonus action, you can conjure a Sand Soldier within 15 feet of you and in an empty space with 5 feet on all sides.
+                    <ul>
+                        <li>It can make a melee spear attack for 1d6 + DEX.</li>
+                        <li>Your movement can be used to move the soldier.</li>
+                        <li>The soldier cannot perceive anything.</li>
+                        <li> The soldier has hit points equal to 1d6 + CHA.</li>
+                        <li>The soldier dissolves after 1 minute or if you are not within 15 feet of it.</li>
+                    </ul>
+                    After using this blessing, you can't use it again until you complete a long rest.
+                </p>
+                <p>The damage die changes when you reach certain levels. The die becomes 2d10 at 5th level, a 2d12 at 10th level, and a 3d12 at 15th level.</p>
+            </description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Blessing of the Sun Disc (Life Siphon)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_SUN_DISC_LIFE_SIPHON">
+        <supports>Blessing of the Sun Disc</supports>
+        <description>
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_SUN_DISC" />
+        </description>
+        <sheet alt="Life Siphon">
+            <description>
+                <p>As an action, roll 1d6 + CHA against a creature you can see. You take this amount of hit points away from the target and add it to your own. The target may make a DC 13 CON saving throw to resist, losing half the amount of hit points on a successful save. This has no effect on Constructs or Undead. After using this blessing, you can't use it again until you complete a long rest.</p>
+                <p>The damage die changes when you reach certain levels. The die becomes 1d10 at 5th level, a 2d12 at 10th level, and a 3d12 at 15th level.</p>
+            </description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Blessing of the Aspect" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_ASPECT">
+        <description>
+            Scaling Mount Targon has convinced an Aspect to grant you their power. Consider your bond with this Aspect; have they bestowed you a shred of their abilities? Or have they fully merged with you, erasing your previous identity? Select one from the list or work with the DM to craft a blessing of similar power:
+            <table>
+                <thead>
+                    <tr>
+                        <th>Blessing</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Aspect of Destiny</td>
+                        <td>While out of combat, you may use this blessing to alter the threads of fate. Predict and describe events of the next three in-game minutes. The DM can determine if these events will be Easy (DC 10), Medium (DC 13), Hard (DC 17), or Impossible (DC 20) to occur. Then, roll 1d20. On a successful role, events happen as described. After using this blessing (on a success or fail), you can't use it again until you complete a short or long rest.</td>
+                    </tr>
+                    <tr>
+                        <td>Aspect of Health</td>
+                        <td>As an action, you may invoke your Aspect to heal yourself or another willing creature you see for 1d6 + CHA. After using this blessing, you can't use it again until you complete a long rest. The dice changes when you reach certain levels. The die becomes 1d10 at 5th level, 1d12 at 10th level, and 2d12 at 15th level.</td>
+                    </tr>
+                    <tr>
+                        <td>Aspect of the Messenger</td>
+                        <td>You can establish a link of telepathic communication between yourself and any creature or entity that you have met before, across any distance. They must be able to comprehend a language you share. The link lasts for 5 minutes. In order to maintain the link, the rules of Concentration apply. After using this blessing, you can't use it again until you complete a long rest.</td>
+                    </tr>
+                    <tr>
+                        <td>Aspect of Revelry</td>
+                        <td>When prompted to make a Charisma check, you can use this blessing to add +10 to the roll. After using this blessing, you can't use it again until you complete a long rest.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </description>
+        <rules>
+            <select type="Racial Trait" name="Blessing of the Aspect" supports="Blessing of the Aspect" />
+        </rules>
+    </element>
+    <element name="Blessing of the Aspect (Aspect of Destiny)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_ASPECT_ASPECT_OF_DESTINY">
+        <supports>Blessing of the Aspect</supports>
+        <description>
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_ASPECT" />
+        </description>
+        <sheet alt="Aspect of Destiny">
+            <description>While out of combat, you may use this blessing to alter the threads of fate. Predict and describe events of the next three in-game minutes. The DM can determine if these events will be Easy (DC 10), Medium (DC 13), Hard (DC 17), or Impossible (DC 20) to occur. Then, roll 1d20. On a successful role, events happen as described. After using this blessing (on a success or fail), you can't use it again until you complete a short or long rest.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Blessing of the Aspect (Aspect of Health)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_ASPECT_ASPECT_OF_HEALTH">
+        <supports>Blessing of the Aspect</supports>
+        <description>
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_ASPECT" />
+        </description>
+        <sheet alt="Aspect of Health">
+            <description>As an action, you may invoke your Aspect to heal yourself or another willing creature you see for 1d6 + CHA. After using this blessing, you can't use it again until you complete a long rest. The dice changes when you reach certain levels. The die becomes 1d10 at 5th level, 1d12 at 10th level, and 2d12 at 15th level.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Blessing of the Aspect (Aspect of the Messenger)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_ASPECT_ASPECT_OF_THE_MESSENGER">
+        <supports>Blessing of the Aspect</supports>
+        <description>
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_ASPECT" />
+        </description>
+        <sheet alt="Aspect of the Messenger">
+            <description>You can establish a link of telepathic communication between yourself and any creature or entity that you have met before, across any distance. They must be able to comprehend a language you share. The link lasts for 5 minutes. In order to maintain the link, the rules of Concentration apply. After using this blessing, you can't use it again until you complete a long rest.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Blessing of the Aspect (Aspect of Revelry)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_ASPECT_ASPECT_OF_REVELRY">
+        <supports>Blessing of the Aspect</supports>
+        <description>
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_BLESSING_OF_THE_ASPECT" />
+        </description>
+        <sheet alt="Aspect of Revelry">
+            <description>When prompted to make a Charisma check, you can use this blessing to add +10 to the roll. After using this blessing, you can't use it again until you complete a long rest.</description>
+        </sheet>
+        <rules></rules>
+    </element>
+</elements>

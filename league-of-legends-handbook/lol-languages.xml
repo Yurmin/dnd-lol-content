@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>LoL Languages</name>
+        <description>Languages from the D&amp;D5e League of Legends Campaign Handbook</description>
+        <update version="0.0.1">
+            <file name="lol-languages.xml" url="" />
+        </update>
+    </info>
+    <element name="Demacian" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_DEMACIAN">
+        <description>
+            <p>Emphatic language spoken throughout the kingdom of Demacia.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Demacians</set>
+            <set name="script">Demacian</set>
+        </setters>
+    </element>
+    <element name="Freljordian" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_FRELJORDIAN">
+        <description>
+            <p>Straightforward language spoken in the Freljord and within Freljordian colonies. When spoken, it features hissing sounds and harsh consonants, like ice sliding across itself.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Freljordians, Frost-trolls</set>
+            <set name="script">Freljordian</set>
+        </setters>
+    </element>
+    <element name="Ionian" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_IONIAN">
+        <description>
+            <p>An aged language of many dialects, and with character-based script.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Ionians, Vastaya</set>
+            <set name="script">Ionian</set>
+        </setters>
+    </element>
+    <element name="Ixtali" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_IXTALI">
+        <description>
+            <p>An ancient language, and quite rare to most mortals. Originating in the deep jungles of Ixtal; often used in the study of nature magic.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Ixtali, Sand-trolls, Vastaya</set>
+            <set name="script">Ixtali</set>
+        </setters>
+    </element>
+    <element name="Piltovan" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_PILTOVAN">
+        <description>
+            <p>Not a far departure from Va-Nox, but includes jargon and slang generally unknown to populations outside of Piltover and Zaun.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Inorganic Golems, Piltovan and Zaunites</set>
+            <set name="script">Piltovan</set>
+        </setters>
+    </element>
+    <element name="Va-Nox" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_VANOX">
+        <description>
+            <p>Harsh and gutteral-sounding. Spoken by most in Runeterra (except in Ixtal) due to Noxian expansion.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">All Races</set>
+            <set name="script">Noxian</set>
+        </setters>
+    </element>
+    <element name="Shuriman" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_SHURIMAN">
+        <description>
+            <p>Quick, choppy language with hard consonants. Used often in the study of ancient history and magic.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Shurimans</set>
+            <set name="script">Shuriman</set>
+        </setters>
+    </element>
+    <element name="Targonian" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_TARGONIAN">
+        <description>
+            <p>Spoken from the stomach. Typically pronounced loudly, as Targonians would need to yell to be heard over mountain wind and storms. Frequently used in magic or ceremony that calls for divine intervention.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Ascended, Celestials, Targonians</set>
+            <set name="script">Targonian</set>
+        </setters>
+    </element>
+    <!-- Exotic Languages -->
+    <element name="Ancient Shuriman" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_ANCIENTSHURIMAN">
+        <description>
+            <p>The language spoken and written millennium ago, in the ancient times of the Shuriman Empire. While sharing some script and pronunciation with modern Shuriman, it typically would not be understood by Shurimans today.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Ascended</set>
+            <set name="script">Ancient Shuriman</set>
+        </setters>
+    </element>
+    <element name="Celestial" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_CELESTIAL">
+        <description>
+            <p>A language nearly incomprehensible to mortals, though melodic in sound and script.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Celestials</set>
+            <set name="script">Targonian, Celestial symbology</set>
+        </setters>
+    </element>
+    <element name="Druidic" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_DRUIDIC">
+        <description>
+            <p>Secret language of the druids.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Druids</set>
+            <set name="script">Ionian, Ixtali, Druidic symbology</set>
+        </setters>
+    </element>
+    <element name="Indigenous Serpent Isle" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_SERPENTISLE">
+        <description>
+            <p>An umbrella of indigenous languages spoken throughout Bilgewater. Examples include Buhru and Helian.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Bilgewater peoples</set>
+            <set name="script">Bilgewater script</set>
+        </setters>
+    </element>
+    <element name="Sylvan" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_SYLVAN">
+        <description>
+            <p>Spoken or telepathic language known by most spiritual and natural beings.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Spirits, fairies, fey, animals, plants</set>
+            <set name="script">Ionian, Ixtali, Sylvan symbology</set>
+        </setters>
+    </element>
+    <element name="Thieves' Cant" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_THIEVES">
+        <description>
+            <p>Secret mix of dialect, jargon, and code that allows thieves to hide messages in seemingly normal conversation.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Thieves</set>
+            <set name="script">Noxian</set>
+        </setters>
+    </element>
+    <element name="Vastayan" type="Language" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_LANGUAGE_VASTAYAN">
+        <description>
+            <p>A mix of mortal language, magic incantation, and animalistic communication. Comes in multiple dialects, based on region and different vastayan tribes.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Vastaya</set>
+            <set name="script">Vastayan</set>
+        </setters>
+    </element>
+</elements>
