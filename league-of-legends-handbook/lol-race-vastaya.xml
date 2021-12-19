@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>
+			Vastaya
+		</name>
+        <update version="0.0.1">
+            <file name="race-Vastaya.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-vastaya.xml" />
+        </update>
+    </info>
+    <element name="Vastaya" type="Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACE_VASTAYA">
+        <description>
+            <p class="flavor">
+				Tribes set in the deep wilderness, animalistic features and temperaments, innate connection with Runeterra's magic; the vastayan peoples are unified in these traits. However, the vastaya are diverse and far-reaching, just as the tides of nature itself are chaotic and uncontrollable.
+			</p>
+            <h4>
+				Blood of the Wild
+			</h4>
+            <p>
+				The vastaya have differing degrees of animal-like features. Some appear more human-like, with few chimeric traits to distinguish them from their mortal peers. Others are fully animal in appearance. Some even develop combinations of distinct animal characteristics, embodying amalgamations of bestial characteristics in a single body.
+			</p>
+            <p>
+				Depending on the tribe and connection to ancient magic, vastaya have various levels of shapeshifting ability. Most vastaya maintain a shape that incorporates both animal and humanoid features, with special care for matching the animal ancestry of their tribe (for instance, a vastaya of the reptilian Strig tribe would likely retain their reptilian features.)
+			</p>
+            <h4>
+				Ancient Heritage
+			</h4>
+            <p>
+				Vastaya trace their lineage to ancient times, particularly to the intermingling of humans and a primeval race called the Vastayashai’rei. As legend states, the Vastayashai’rei originated in the First Lands, which would come to be called Ionia. In a primordial war with titans who rained hell from the skies above, the Vastayashai’rei absorbed the land's natural and spiritual magic into their bodies, becoming vastly powerful.
+			</p>
+            <p>
+				Thousands upon thousands of years after this war, the vastaya emerged as descendants of these ancient peoples. The vastaya evolved into different brances and tribes, forming their own societies, languages, and civilizations across Runeterra. Now, most vastayan tribes reside in Ionia, a land which still carries inherent magic that gives the life to the vastaya.
+			</p>
+            <h4>
+				Vastaya names
+			</h4>
+            <p>
+				Vastayan names are typically drawn from the vastayan language, but some might be based in Ionian script. Names are given at birth, by parents or by tribe elders, depending on clan traditions.
+			</p>
+            <p>
+                <span class="feature">
+					Male Names:
+				</span>
+                Akrato, Brekan, Draclo, Gongram, Ishkan, Marok, Neyerdan, Redalish, Strago, Vilom, Watong
+                <br />
+                <span class="feature">
+					Female Names:
+				</span>
+                Ahlana, Elmi, Hanni, Irroa, Lakaia, Meian, Neirin, Ohrila, Raini, Sedlani, Sheilah, Viyana, Weeva
+                <br />
+                <span class="feature">
+					Gender-Neutral Names:
+				</span>
+                Alekhan, Belnani, Halansa, Jerivahn, Mahni, Narene, Rantloa, Songna, Weivam
+                <br />
+            </p>
+            <h4>
+				Vastaya traits
+			</h4>
+            <p>
+				Your Vastaya character has the following traits:
+			</p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Ability Score Increase
+					</em>
+                </strong>
+                Your Wisdom score increases by 2.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Age
+					</em>
+                </strong>
+                Vastaya reach physical maturity at around the same rate as humans, but they stay youthful for longer and have more prolonged lifespans. They can live to be up to 600 years old.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Alignment
+					</em>
+                </strong>
+                Most vastaya care not for the laws of mankind, instead aligning themselves with the chaos of nature and magic. As such, vastaya tend toward chaotic alignments.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Size
+					</em>
+                </strong>
+                Vastaya are comparable in size and weight to humans, ranging between 4 to 6 feet tall, depending on the subrace. Your size is Medium.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Speed
+					</em>
+                </strong>
+                Your base walking speed is 30 feet.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Innate Shapechanger
+					</em>
+                </strong>
+                You can cast the second-level spell
+                <em>
+					Alter Self
+				</em>
+                , without expending a spell slot. Once you cast it, you can't do so again until you finish a long rest.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Knowledge of the Wild
+					</em>
+                </strong>
+                You are proficient in the Nature and Survival skills.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Languages
+					</em>
+                </strong>
+                You can speak, read, and write Va-Nox and Vastayan. The Vastayan language has many dialects originating from the split of different tribes.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Subraces
+					</em>
+                </strong>
+                There are numerous branches of vastayan heritage and forms, but they can be generalized into three tribal groupings: Landwalker Tribes, Tribes of the Sea, and Tribes of the Sky. Choose one such subrace.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names-format">
+				{{name}}
+			</set>
+            <set name="height" modifier="2d10">
+				4'8"
+			</set>
+            <set name="weight" modifier="2d4">
+				110 lb
+			</set>
+        </setters>
+        <rules>
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_VANOX" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_INNATE_SHAPECHANGER" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_KNOWLEDGE_OF_THE_WILD" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_LANGUAGES" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_VASTAYA_SUBRACE" />
+        </rules>
+    </element>
+    <element name="Innate Shapechanger" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_INNATE_SHAPECHANGER">
+        <description>
+            <p>
+                You can cast the second-level spell
+                <em>
+					Alter Self
+				</em>
+                , without expending a spell slot. Once you cast it, you can't do so again until you finish a long rest.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You can cast the second-level spell
+                <em>
+					Alter Self
+				</em>
+                , without expending a spell slot. Once you cast it, you can't do so again until you finish a long rest.
+            </description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Knowledge of the Wild" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_KNOWLEDGE_OF_THE_WILD">
+        <description>
+            <p>
+				You are proficient in the Nature and Survival skills.
+			</p>
+        </description>
+        <sheet>
+            <description>
+				You are proficient in the Nature and Survival skills.
+			</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Languages" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_LANGUAGES">
+        <description>
+            <p>
+				You can speak, read, and write Va-Nox and Vastayan. The Vastayan language has many dialects originating from the split of different tribes.
+			</p>
+        </description>
+        <sheet>
+            <description>
+				You can speak, read, and write Va-Nox and Vastayan. The Vastayan language has many dialects originating from the split of different tribes.
+			</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Vastaya Subrace" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_VASTAYA_SUBRACE">
+        <description>
+            <p>
+				There are numerous branches of vastayan heritage and forms, but they can be generalized into three tribal groupings: Landwalker Tribes, Tribes of the Sea, and Tribes of the Sky. Choose one such subrace.
+			</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Vastaya Subrace" supports="Vastaya" />
+        </rules>
+    </element>
+    <element name="landwalker tribe Vastaya" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_LANDWALKER_TRIBE">
+        <supports>
+			Vastaya
+		</supports>
+        <description>
+            <p>
+				As the category suggests, the Landwalker Tribes are made up of vastaya who tread the earth. Generally, Landwalker Tribes are the most numerous and common groups of vastaya found in Runeterra. Landwalker Tribes include branches like the goatlike Fauhwoon, the birdlike Lhotlan, the monkeylike Shimon, and several others.
+			</p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Ability Score Increase
+					</em>
+                </strong>
+                Your Strength score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Climbing Speed
+					</em>
+                </strong>
+                You have a climbing speed of 30 feet.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Innate Spellcasting
+					</em>
+                </strong>
+                You know the
+                <em>
+					Druidcraft
+				</em>
+                cantrip.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Mask of the Wild
+					</em>
+                </strong>
+                Used to traversing forests and wilds, you can attempt to hide when you are only slightly obscured by folliage, tree bark, or rock walls.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Speak with Small Beasts
+					</em>
+                </strong>
+                Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="2d10">
+				4'8"
+			</set>
+            <set name="weight" modifier="2d4">
+				110 lb.
+			</set>
+        </setters>
+        <rules>
+            <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_INNATE_SPELLCASTING_EARTH" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MASK_OF_THE_WILD" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS" />
+            <stat name="wisdom" value="2" />
+            <stat name="strength" value="1" />
+        </rules>
+    </element>
+    <element name="Innate Spellcasting" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_INNATE_SPELLCASTING_EARTH">
+        <description>
+            <p>
+                You know the
+                <em>
+					Druidcraft
+				</em>
+                cantrip.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You know the
+                <em>
+					Druidcraft
+				</em>
+                cantrip.
+            </description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Mask of the Wild" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MASK_OF_THE_WILD">
+        <description>
+            <p>
+				Used to traversing forests and wilds, you can attempt to hide when you are only slightly obscured by folliage, tree bark, or rock walls.
+			</p>
+        </description>
+        <sheet>
+            <description>
+				Used to traversing forests and wilds, you can attempt to hide when you are only slightly obscured by folliage, tree bark, or rock walls.
+			</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Speak with Small Beasts" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS">
+        <description>
+            <p>
+				Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.
+			</p>
+        </description>
+        <sheet>
+            <description>
+				Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.
+			</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Tribe of the Sea Vastaya" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_TRIBE_OF_THE_SEA">
+        <supports>
+			Vastaya
+		</supports>
+        <description>
+            Tribes of the Sea inhabit Runeterra's seas and oceans, able to survive in depths untouched by humans. As a result of living in the oceans, separate from human intervention, they are the most in-touch with Runeterra's natural magic—flowing in its watery depths. They tend to be the least human-like in appearance, needing aquatic traits like gills and fins to thrive in water environments. Tribes of the Sea include the mermen-like Marai, the Makara, and the Raylu.
+            <p class="indent">
+                <strong>
+                    <em>
+						Ability Score Increase
+					</em>
+                </strong>
+                Your Charisma score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Amphibious
+					</em>
+                </strong>
+                You can breathe on land and in water.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Innate Spellcasting
+					</em>
+                </strong>
+                You know the
+                <em>
+					Shape Water
+				</em>
+                cantrip.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Swimming Speed
+					</em>
+                </strong>
+                You have a swimming speed of 30 feet.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Sea Weapon Training
+					</em>
+                </strong>
+                You have proficiency with spears, tridents, and nets.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="2d10">
+				4'8"
+			</set>
+            <set name="weight" modifier="2d4">
+				110 lb.
+			</set>
+        </setters>
+        <rules>
+            <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_INNATE_SPELLCASTING_SEA" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_AMPHIBIOUS" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SEA_WEAPON_TRAINING" />
+            <stat name="wisdom" value="2" />
+        </rules>
+    </element>
+    <element name="Innate Spellcasting" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_INNATE_SPELLCASTING_SEA">
+        <description>
+            <p>
+                You know the
+                <em>
+					Shape Water
+				</em>
+                cantrip.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You know the
+                <em>
+					Shape Water
+				</em>
+                cantrip.
+            </description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Amphibious" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_AMPHIBIOUS">
+        <description>
+            <p>
+				You can breathe on land and in water.
+			</p>
+        </description>
+        <sheet>
+            <description>
+				You can breathe on land and in water.
+			</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Sea Weapon Training" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SEA_WEAPON_TRAINING">
+        <description>
+            <p>
+				You have proficiency with spears, tridents, and nets.
+			</p>
+        </description>
+        <sheet>
+            <description>
+				You have proficiency with spears, tridents, and nets.
+			</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Tribe of the sky Vastaya" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_TRIBE_OF_THE_SKY">
+        <supports>
+			Vastaya
+		</supports>
+        <description>
+            Tribes of the Sky vastaya live far above the lands of humans, in the skies, trees, and mountains. Tribes of the Sky include the Besheb, the Strig, the Chyra, and other unidentified tribes.
+            <p class="indent">
+                <strong>
+                    <em>
+						Ability Score Increase
+					</em>
+                </strong>
+                Your Dexterity score increases by 1.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Innate Spellcasting
+					</em>
+                </strong>
+                You know the
+                <em>
+					Gust
+				</em>
+                cantrip.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Talons
+					</em>
+                </strong>
+                Your have talons, which can act as natural weapons and be used to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Dexterity modifier, instead of the bludgeoning damage normal for an unarmed strike.
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+						Wings
+					</em>
+                </strong>
+                You have a flying speed of 30 feet. You must be in a space wide enough to accommodate your wingspan to fly. Your wingspan is equal to twice your height. You cannot fly if you are wearing armor you are not proficient in, armor not tailored to accommodate your wings, or a backpack not specially tailored to your wings.
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="2d10">
+				4'8"
+			</set>
+            <set name="weight" modifier="2d4">
+				110 lb.
+			</set>
+        </setters>
+        <rules>
+            <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_INNATE_SPELLCASTING_SKY" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_TALONS" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_WINGS" />
+            <stat name="wisdom" value="2" />
+        </rules>
+    </element>
+    <element name="Innate Spellcasting" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_INNATE_SPELLCASTING_SKY">
+        <description>
+            <p>
+                You know the
+                <em>
+					Gust
+				</em>
+                cantrip.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You know the
+                <em>
+					Gust
+				</em>
+                cantrip.
+            </description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Talons" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_TALONS">
+        <description>
+            <p>
+				Your have talons, which can act as natural weapons and be used to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Dexterity modifier, instead of the bludgeoning damage normal for an unarmed strike.
+			</p>
+        </description>
+        <sheet>
+            <description>
+				Your have talons, which can act as natural weapons and be used to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Dexterity modifier, instead of the bludgeoning damage normal for an unarmed strike.
+			</description>
+        </sheet>
+        <rules></rules>
+    </element>
+    <element name="Wings" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_WINGS">
+        <description>
+            <p>
+				You have a flying speed of 30 feet. You must be in a space wide enough to accommodate your wingspan to fly. Your wingspan is equal to twice your height. You cannot fly if you are wearing armor you are not proficient in, armor not tailored to accommodate your wings, or a backpack not specially tailored to your wings.
+			</p>
+        </description>
+        <sheet>
+            <description>
+				You have a flying speed of 30 feet. You must be in a space wide enough to accommodate your wingspan to fly. Your wingspan is equal to twice your height. You cannot fly if you are wearing armor you are not proficient in, armor not tailored to accommodate your wings, or a backpack not specially tailored to your wings.
+			</description>
+        </sheet>
+        <rules></rules>
+    </element>
+</elements>
