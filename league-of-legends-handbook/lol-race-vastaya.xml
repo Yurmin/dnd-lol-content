@@ -150,7 +150,7 @@
             </set>
         </setters>
         <rules>
-            <stat name="innate speed" value="30" bonus="base" />
+            <stat name="innate speed:fly" value="30" bonus="base" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_VANOX" />
             <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_VASTAYAN" />
