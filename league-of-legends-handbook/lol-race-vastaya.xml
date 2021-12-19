@@ -4,7 +4,7 @@
         <name>
 			Vastaya
         </name>
-        <update version="0.0.1">
+        <update version="0.0.3">
             <file name="race-vastaya.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-race-vastaya.xml" />
         </update>
     </info>
@@ -209,7 +209,7 @@
             <select type="Sub Race" name="Vastaya Subrace" supports="Vastaya" />
         </rules>
     </element>
-    <element name="Landwalker Tribe Vastaya" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_LANDWALKER_TRIBE">
+    <element name="Landwalker Tribe" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_LANDWALKER_TRIBE">
         <supports>
 			Vastaya
         </supports>
@@ -329,7 +329,7 @@
         </sheet>
         <rules></rules>
     </element>
-    <element name="Tribe of the Sea Vastaya" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_TRIBE_OF_THE_SEA">
+    <element name="Tribe of the Sea" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_TRIBE_OF_THE_SEA">
         <supports>
 			Vastaya
         </supports>
@@ -417,7 +417,7 @@
             </description>
         </sheet>
         <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_SHAPE_WATER"/>
+            <grant type="Spell" id="ID_POTA_SPELL_SHAPEWATER"/>
         </rules>
     </element>
     <element name="Amphibious" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_AMPHIBIOUS">
@@ -448,7 +448,7 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS" />
         </rules>
     </element>
-    <element name="Tribe of the sky Vastaya" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_TRIBE_OF_THE_SKY">
+    <element name="Tribe of the Sky" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_TRIBE_OF_THE_SKY">
         <supports>
 			Vastaya
         </supports>
@@ -528,7 +528,7 @@
             </description>
         </sheet>
         <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_GUST"/>
+            <grant type="Spell" id="ID_POTA_SPELL_GUST"/>
         </rules>
     </element>
     <element name="Talons" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_TALONS">
