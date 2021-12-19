@@ -98,6 +98,7 @@
             <stat name="innate speed" value="30" bonus="base" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_VANOX" />
+            <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_SYLVAN" />
             <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_LIVING_SPIRIT" />
             <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MYSTICAL_AWARENESS" />
             <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SPIRIT_REALM'S_REFUGE" />
@@ -191,9 +192,7 @@
         <sheet>
             <description>Once per long rest, you can look into the weaknesses of a creature you can see. As a bonus action, you can target a creature. Make a Wisdom (Insight) check against that creature's Charisma (Deception). Upon success, you gain advantage on the next attack roll against that creature. Also, you learn the creature's damage vulnerabilities, if any.</description>
         </sheet>
-        <rules>
-            <grant type="Vision" id="ID_VISION_DARKVISION" />
-        </rules>
+        <rules></rules>
     </element>
     <element name="Demonic Darkvision" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_DEMONIC_DARKVISION">
         <description>
@@ -202,7 +201,9 @@
         <sheet>
             <description>Being a demon, you are much accustomed to prowling in the dark. Your darkvision has a radius of 120 feet. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</description>
         </sheet>
-        <rules></rules>
+        <rules>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+        </rules>
     </element>
     <element name="Light Aversion" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_LIGHT_AVERSION">
         <description>
@@ -211,7 +212,8 @@
         <sheet>
             <description>You are vulnerable to radiant damage.</description>
         </sheet>
-        <rules></rules>
+        <rules>
+        </rules>
     </element>
     <element name="Yordle Spirit" type="Sub Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_SUB_RACE_YORDLE">
         <supports>Spirit</supports>
@@ -251,6 +253,7 @@
             <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
             <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MAGIC_MISCHIEF" />
             <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_YORDLE_EARS" />
+            <grant type="Size" id="ID_SIZE_SMALL" />
             <stat name="charisma" value="2" />
             <stat name="intelligence" value="2" />
         </rules>
@@ -261,7 +264,7 @@
                 Yordles are inherently magical. Once per long rest, you can use your bonus action to do one of the following:
                 <ul>
                     <li>Impose advantage on the next spell attack by a willing creature other than yourself.</li>
-                    <li> Impose disadvantage on the next enemy spell attack.</li>
+                    <li>Impose disadvantage on the next enemy spell attack.</li>
                     <li>Change the damage type of your next successful spell attack.</li>
                 </ul>
             </p>

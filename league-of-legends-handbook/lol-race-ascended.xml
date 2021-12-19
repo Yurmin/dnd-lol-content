@@ -437,7 +437,7 @@
                         <li>It can make a melee spear attack for 1d6 + DEX.</li>
                         <li>Your movement can be used to move the soldier.</li>
                         <li>The soldier cannot perceive anything.</li>
-                        <li> The soldier has hit points equal to 1d6 + CHA.</li>
+                        <li>The soldier has hit points equal to 1d6 + CHA.</li>
                         <li>The soldier dissolves after 1 minute or if you are not within 15 feet of it.</li>
                     </ul>
                     After using this blessing, you can't use it again until you complete a long rest.

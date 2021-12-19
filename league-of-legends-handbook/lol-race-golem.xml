@@ -107,7 +107,9 @@
         <sheet>
             <description>You have an armor bonus of +1 when wearing armor. When you are not wearing armor, your AC is equal to 10 + your natural armor bonus + your dexterity modifier.</description>
         </sheet>
-        <rules></rules>
+        <rules>
+            <stat name="ac:misc" value="1" equipped="[armor:light]||[armor:medium]||[armor:heavy]"/>
+        </rules>
     </element>
     <element name="Golem Subrace" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_GOLEM_SUBRACE">
         <description>
@@ -186,7 +188,7 @@
         <rules>
             <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
             <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_KNOWLEDGE_PROGRAMMED" />
-            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINES_MASTERY" />
             <stat name="intelligence" value="1" />
             <stat name="strength" value="2" />
         </rules>
@@ -242,8 +244,8 @@
         </setters>
         <rules>
             <grant type="Feat" id="ID_ORKIDIAN_INTERNAL_SUB_RACE" />
-            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_GOLEM'S_MUSCLE" />
-            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_NATURE'S_KNOWLEDGE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_GOLEMS_MUSCLE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_NATURES_KNOWLEDGE" />
             <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_NATURAL_WEAPON" />
             <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MASK_OF_THE_WILD" />
             <stat name="strength" value="2" />
@@ -257,7 +259,9 @@
         <sheet>
             <description>Your size category is Medium, but you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
         </sheet>
-        <rules></rules>
+        <rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+        </rules>
     </element>
     <element name="Nature's Knowledge" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_NATURE'S_KNOWLEDGE">
         <description>
@@ -266,7 +270,9 @@
         <sheet>
             <description>You are proficient in the Nature skill.</description>
         </sheet>
-        <rules></rules>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+        </rules>
     </element>
     <element name="Natural Weapon" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_NATURAL_WEAPON">
         <description>
@@ -327,17 +333,19 @@
     <element name="Machine's Mastery (Climbing Picks)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY_CLIMBING_PICKS">
         <supports>Machine's Mastery</supports>
         <description>
-            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY" />
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINES_MASTERY" />
         </description>
         <sheet alt="Climbing Picks">
             <description>You have a climbing speed of 30 feet.</description>
         </sheet>
-        <rules></rules>
+        <rules>
+            <stat name="innate speed:climb" value="30" bonus="base"/>
+        </rules>
     </element>
     <element name="Machine's Mastery (Darkvision)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY_DARKVISION">
         <supports>Machine's Mastery</supports>
         <description>
-            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY" />
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINES_MASTERY" />
         </description>
         <sheet alt="Darkvision">
             <description>You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</description>
@@ -347,31 +355,37 @@
     <element name="Machine's Mastery (Drills)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY_DRILLS">
         <supports>Machine's Mastery</supports>
         <description>
-            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY" />
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINES_MASTERY" />
         </description>
         <sheet alt="Drills">
             <description>You have a burrowing speed of 30 feet.</description>
         </sheet>
-        <rules></rules>
+        <rules>
+            <stat name="innate speed:burrow" value="30" bonus="base"/>
+        </rules>
     </element>
     <element name="Machine's Mastery (Water Engine)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY_WATER_ENGINE">
         <supports>Machine's Mastery</supports>
         <description>
-            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY" />
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINES_MASTERY" />
         </description>
         <sheet alt="Water Engine">
             <description>You have a swimming speed of 30 feet</description>
         </sheet>
-        <rules></rules>
+        <rules>
+            <stat name="innate speed:swim" value="30" bonus="base" equipped="![armor:heavy]"/>
+        </rules>
     </element>
     <element name="Machine's Mastery (Wheels)" type="Racial Trait" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY_WHEELS">
         <supports>Machine's Mastery</supports>
         <description>
-            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINE'S_MASTERY" />
+            <div element="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_MACHINES_MASTERY" />
         </description>
         <sheet alt="Wheels">
             <description>Your base walking speed increases to 35 feet.</description>
         </sheet>
-        <rules></rules>
+        <rules>
+            <stat name="innate speed" value="35" bonus="base"/>
+        </rules>
     </element>
 </elements>
