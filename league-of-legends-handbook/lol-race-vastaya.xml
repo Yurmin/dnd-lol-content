@@ -5,7 +5,7 @@
 			Vastaya
         </name>
         <update version="0.0.1">
-            <file name="race-vastaya.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-vastaya.xml" />
+            <file name="race-vastaya.xml" url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-race-vastaya.xml" />
         </update>
     </info>
     <element name="Vastaya" type="Race" source="League of Legends Handbook" id="ID_ORKIDIAN_LOLHB_RACE_VASTAYA">
