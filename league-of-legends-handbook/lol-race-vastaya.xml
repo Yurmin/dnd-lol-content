@@ -156,7 +156,6 @@
             <grant type="Language" id="ID_ORKIDIAN_LOLHB_LANGUAGE_VASTAYAN" />
             <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_INNATE_SHAPECHANGER" />
             <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_KNOWLEDGE_OF_THE_WILD" />
-            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_LANGUAGES" />
             <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_VASTAYA_SUBRACE" />
         </rules>
     </element>
