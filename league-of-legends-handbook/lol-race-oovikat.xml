@@ -11,7 +11,7 @@
     </info>
     <!-- Note: This race comes from https://www.dandwiki.com/wiki/Oovi-Kat_(5e_Race), as such it's
     not an original part of the LOLHB mentioned in other files in this repository -->
-    <element name="Oovi-kat" type="Race" source="dandwiki" id="ID_ORKIDIAN_LOLHB_RACE_VASTAYA">
+    <element name="Oovi-kat" type="Race" source="dandwiki" id="ID_ORKIDIAN_LOLHB_RACE_OOVIKAT">
         <description>
             <p class="flavor">
                 "The Oovi-Kat are gone. Neeko must build her own tribe, now."
