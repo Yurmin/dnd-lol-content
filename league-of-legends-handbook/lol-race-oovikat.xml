@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>
+            Oovi-kat
+        </name>
+        <update version="0.0.4">
+            <file name="race-oovikat.xml"
+                url="https://raw.githubusercontent.com/Yurmin/dnd-lol-content/master/league-of-legends-handbook/lol-race-oovikat.xml" />
+        </update>
+    </info>
+    <!-- Note: This race comes from https://www.dandwiki.com/wiki/Oovi-Kat_(5e_Race), as such it's
+    not an original part of the LOLHB mentioned in other files in this repository -->
+    <element name="Oovi-kat" type="Race" source="dandwiki" id="ID_ORKIDIAN_LOLHB_RACE_VASTAYA">
+        <description>
+            <p class="flavor">
+                "The Oovi-Kat are gone. Neeko must build her own tribe, now."
+            </p>
+            <h4>
+                Physical Description
+            </h4>
+            <p>
+                The Oovi-Kat are a tribe of essentially chameleon like humans, they have smooth
+                skin, up to half their limbs, as a greenish scaly skin replaces the skin at their
+                shoulders, neck, hands and feet. Each Oovi-Kat has their own special colors that
+                signify their own personality, often showing at the tips of their fingers and toes,
+                making different patterns and bright colors along their tails though green is always
+                present on their body, possibly to help with camouflage in the deep forest.
+            </p>
+            <h4>
+                History
+            </h4>
+            <p>
+                Not much is know of about the Oovi-Kat, other than that they lived in deep forests,
+                away from civilization. Some, however, have chosen to leave the confines of their
+                forests and explore the world. Their origins are known only by elder oovi-kats, and
+                are usually kept from the newer generations. Either in regret, or in fear.
+            </p>
+            <h4>
+                Society
+            </h4>
+            <p>
+                The Oovi-Kat were peaceful beings of unrivaled potential. Their harmonious society
+                blended seamlessly with the spirit realm, so that their sho’ma — their spiritual
+                essence — could intermingle with other beings through mere proximity, and even help
+                them mimic other physical forms. No secrets existed between the Oovi-Kat.
+            </p>
+            <h4>
+                Oovi-Kat Names
+            </h4>
+            <p>
+                Vastayan names are typically drawn from the vastayan language, but some might be
+                based in Ionian script. Names are given at birth, by parents or by tribe elders,
+                depending on clan traditions.
+            </p>
+            <p>
+                <span class="feature">
+                    Male Names:
+                </span> Yann, Muute, Rekon. <br />
+                <span
+                    class="feature">
+                    Female Names:
+                </span> Neeko, Ginna, Fainn. </p>
+            <h4>
+                Oovi-Kat Traits
+            </h4>
+            <p>
+                The Oovi-Kat are a race known for their individuality... and their disguises. Your
+                Oovi-Kat character has the following traits:
+            </p>
+            <p class="indent">
+                <strong>
+                    <em>
+                        Ability Score Increase.
+                    </em>
+                </strong>
+                Your Wisdom score increases by 2 and your Charisma score increases by 1. </p>
+            <p class="indent">
+                <strong>
+                    <em>
+                        Age.
+                    </em>
+                </strong>
+                A member of the Oovi-Kat can be 400 year before their the equivalent of a 20-year
+                old human mentally. There is no known end to the lifespan of one, as most were
+                killed instead of actually dying from age. </p>
+            <p class="indent">
+                <strong>
+                    <em>
+                        Alignment.
+                    </em>
+                </strong>
+                Most Oovi-Kats were neutral, given how they separated themselves from the outside
+                world. Despite this, those who chose to abandon their native forests often built
+                their own ideas and were thus of different alignments.</p>
+            <p class="indent">
+                <strong>
+                    <em>
+                        Size.
+                    </em>
+                </strong>
+                Oovi-Kat vary widely in height and build, from barely 5 feet to well over 6 feet
+                tall. Your tail can be 4 to 6 feet long. Your size is Medium. </p>
+            <p class="indent">
+                <strong>
+                    <em>
+                        Speed.
+                    </em>
+                </strong>
+                Your base walking speed is 30 feet. You also have a Climbing speed of 25. </p>
+            <p class="indent">
+                <strong>
+                    <em>
+                        Darkvision.
+                    </em>
+                </strong>
+                The Oovi-Kat are able to sense their surroundings, even in the darkest forests they
+                came from. You can see in dim light within 60 feet of you as if it were bright
+                light, and in darkness as if it were dim light. Like most races, you can't designate
+                color, as it only shows shades of grey. But, unlike most races, you see living
+                things in certain colors, depending on how you Identify them as. Green for friends,
+                blue for family members, red for dangererous creatures, and purple for unknown ones.
+                You also discern preys and food sources in orange. </p>
+            <p class="indent">
+                <strong>
+                    <em>
+                        Shapeshifting.
+                    </em>
+                </strong>
+                The Oovi-Kat are known for there chameleon-like camouflage, and there ability to
+                change into people. As a action, A Oovi-Kat can turn into another humanoid they have
+                seen before. They have advantage on using the <strong>Deception</strong> skill while
+                using this form. If you take damage, you need to make a concentration check to stay
+                in that form, as it takes a great deal of concentration to stay in another form. You
+                automatically revert to your normal self if you become incapacitated. </p>
+            <p class="indent">
+                <strong>
+                    <em>
+                        Chameleon Stride.
+                    </em>
+                </strong>
+                The Oovi-Kat are skilled at not being seen, if they don't want to be. You gain
+                proficiency in the Stealth skill. </p>
+            <p class="indent">
+                <strong>
+                    <em>
+                        Long Tail.
+                    </em>
+                </strong>
+                The Oovi-Kat have long tails. You can make a unarmed attack with your tail as a
+                normal action, or make a Grapple check with your tail. If you hit, you deal 1d4
+                Bludgeoning. This uses Dexterity </p>
+            <p class="indent">
+                <strong>
+                    <em>
+                        Empathetic link.
+                    </em>
+                </strong>
+                The Oovi-Kat have only lived with themselves, and their link to the ethereal plane
+                has allowed them to sense the emotions of other beings more that most people, as
+                emotion is what links all sentient beings together, and is used by the Oovi-Kat to
+                tell which person is which since they are a tribe of shape-shifters. You gain
+                proficiency in the Insight skill. </p>
+            <p class="indent">
+                <strong>
+                    <em>
+                        Languages
+                    </em>
+                </strong>
+                You can speak, read, and write Common and Sylvan. </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names-format">
+                {{name}}
+            </set>
+            <set name="height" modifier="2d6">
+                5'3"
+            </set>
+            <set name="weight" modifier="1d6">
+                50 lb
+            </set>
+        </setters>
+        <rules>
+            <stat name="innate speed" value="30" bonus="base" />
+            <stat name="innate speed:climb" value="25" bonus="base" />
+            <stat name="wisdom" value="2"/>
+            <stat name="charisma" value="1"/>
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_OOVIKAT_DARKVISION" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SHAPESHIFTING" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_CHAMELEON_STRIDE" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_LONG_TAIL" />
+            <grant type="Racial Trait" id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_EMPATHETIC_LINK" />
+        </rules>
+    </element>
+    <element name="Darkvision" type="Racial Trait" source="League of Legends Handbook"
+        id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_OOVIKAT_DARKVISION">
+        <description>
+            The Oovi-Kat are able to sense their surroundings, even in the darkest forests they
+            came from. You can see in dim light within 60 feet of you as if it were bright
+            light, and in darkness as if it were dim light. Like most races, you can't designate
+            color, as it only shows shades of grey. But, unlike most races, you see living
+            things in certain colors, depending on how you Identify them as. Green for friends,
+            blue for family members, red for dangererous creatures, and purple for unknown ones.
+            You also discern preys and food sources in orange. </description>
+        <sheet>
+            <description>
+                The Oovi-Kat are able to sense their surroundings, even in the darkest forests they
+                came from. You can see in dim light within 60 feet of you as if it were bright
+                light, and in darkness as if it were dim light. Like most races, you can't designate
+                color, as it only shows shades of grey. But, unlike most races, you see living
+                things in certain colors, depending on how you Identify them as. Green for friends,
+                blue for family members, red for dangererous creatures, and purple for unknown ones.
+                You also discern preys and food sources in orange. </description>
+        </sheet>
+        <rules>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+        </rules>
+    </element>
+    <element name="Shapeshifting" type="Racial Trait" source="League of Legends Handbook"
+        id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_SHAPESHIFTING">
+        <description> The Oovi-Kat are known for there chameleon-like camouflage, and there ability
+            to change into people. As a action, A Oovi-Kat can turn into another humanoid they have
+            seen before. They have advantage on using the <strong>Deception</strong> skill while
+            using this form. If you take damage, you need to make a concentration check to stay in
+            that form, as it takes a great deal of concentration to stay in another form. You
+            automatically revert to your normal self if you become incapacitated. </description>
+        <sheet>
+            <description> The Oovi-Kat are known for there chameleon-like camouflage, and there
+                ability to change into people. As a action, A Oovi-Kat can turn into another
+                humanoid they have seen before. They have advantage on using the <strong>Deception</strong>
+                skill while using this form. If you take damage, you need to make a concentration
+                check to stay in that form, as it takes a great deal of concentration to stay in
+                another form. You automatically revert to your normal self if you become
+                incapacitated. </description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" />
+        </rules>
+    </element>
+    <element name="Chameleon Stride" type="Racial Trait" source="League of Legends Handbook"
+        id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_CHAMELEON_STRIDE">
+        <description>
+            The Oovi-Kat are skilled at not being
+            seen, if they don't want to be. You gain proficiency in the Stealth skill. </description>
+        <sheet>
+            <description>
+                The Oovi-Kat are skilled at not being
+                seen, if they don't want to be. You gain proficiency in the Stealth skill. </description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+        </rules>
+    </element>
+    <element name="Long Tail" type="Racial Trait" source="League of Legends Handbook"
+        id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_LONG_TAIL">
+        <description>
+            The Oovi-Kat have long
+            tails. You can make a unarmed attack with your tail as a normal action, or make a
+            Grapple
+            check with your tail. If you hit, you deal 1d4 Bludgeoning. This uses Dexterity </description>
+        <sheet action="Action">
+            <description> You make an unarmed attack or try to grapple an enemy with your tail. If
+                you hit with it you deal 1d4+{{dexterity:modifier}} bludgeoning damage and can use
+                dexterity as for the attack roll. Also, if you try to grapple an enemy with your
+                tail, you can use <em>Acrobatics</em> instead of <em>Athletics</em> for your check. </description>
+        </sheet>
+    </element>
+    <element name="Empathetic link" type="Racial Trait" source="League of Legends Handbook"
+        id="ID_ORKIDIAN_LOLHB_RACIAL_TRAIT_EMPATHETIC_LINK">
+        <description>
+            The Oovi-Kat have
+            only lived with themselves, and their link to the ethereal plane has allowed them to
+            sense
+            the emotions of other beings more that most people, as emotion is what links all
+            sentient
+            beings together, and is used by the Oovi-Kat to tell which person is which since they
+            are a
+            tribe of shape-shifters. You gain proficiency in the Insight skill. </description>
+        <sheet>
+            <description>
+                The Oovi-Kat have
+                only lived with themselves, and their link to the ethereal plane has allowed them to
+                sense
+                the emotions of other beings more that most people, as emotion is what links all
+                sentient
+                beings together, and is used by the Oovi-Kat to tell which person is which since
+                they
+                are a
+                tribe of shape-shifters. You gain proficiency in the Insight skill. </description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+        </rules>
+    </element>
+</elements>
